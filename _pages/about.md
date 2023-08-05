@@ -209,6 +209,7 @@ d_l = d_{\text{min},l} + m\frac{d_{\text{max},l} - d_{\text{min},l}}{M_l-1}
         </tr>
     </thead>
     <tbody>
+        <!-- Geometric Methods -->
         <tr>
             <td rowspan="5">Geometric</td>
             <td>Furu</td>
