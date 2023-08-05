@@ -114,7 +114,6 @@ Here, the RDD-2018 and RDD-2019 are omited.
 
 Sample images of above detection-oriented datasets are as follows:
 
-<p align="center">
-<img src="/images/Detection_Sample_Images.png" width=45% height=45%>
-</p>
+![sampleimage](../images/Classification_Sample_Images.png)
+
 
