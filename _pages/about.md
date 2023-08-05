@@ -77,7 +77,7 @@ redirect_from:
 <p>Discover the intricacies of our innovative two-stage MVS method, the <strong>LCM-MVSNet</strong>. Delving deep into automated point cloud reconstruction, this section unveils the techniques and strategies behind our state-of-the-art system.</p>
 
 <figure>
-  <img src="/images/lcm_mvsnet_overview.png" alt="Overview of LCM-MVSNet" style="width:100%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  <img src="/images/network.pdf" alt="Overview of LCM-MVSNet" style="width:100%; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
   <figcaption><i>Fig. 2: A bird's-eye view of the LCM-MVSNet architecture.</i></figcaption>
 </figure>
 
@@ -183,12 +183,12 @@ $$
 <p>In this section, we showcase the effectiveness and superiority of our LCM-MVSNet across multiple MVS benchmarks. The datasets, evaluation metrics, training & evaluation specifics, and all reconstruction visualizations can be found in the <strong>Appendix</strong> due to page constraints.</p>
 
 <div class="image-container">
-    <img src="image/dtu_depth-2.pdf" alt="DTU depth comparison" width="85%">
+    <img src="images/dtu_depth-2.pdf" alt="DTU depth comparison" width="85%">
     <p>Qualitative comparison of the depth map estimations on <em>Scan13</em> (1st row) and <em>Scan33</em> (2nd row) of the <em>DTU evaluation set</em>.</p>
 </div>
 
 <div class="image-container">
-    <img src="image/dtu_points-5.pdf" alt="DTU points comparison" width="85%">
+    <img src="images/dtu_points-5.pdf" alt="DTU points comparison" width="85%">
     <p>Qualitative comparison of the point cloud reconstruction of <em>Scan12</em> (1st row), <em>Scan13</em> (2nd row) and <em>Scan77</em> (3rd row) on the <em>DTU evaluation set</em>.</p>
 </div>
 
@@ -339,7 +339,7 @@ As aforementioned, we introduce the BPA to augment the propagation of low-level 
 </p>
 
 <figure>
-    <img src="image/depth_curve.pdf" alt="Comparison of mean absolute depth error" width="85%">
+    <img src="images/depth_curve.pdf" alt="Comparison of mean absolute depth error" width="85%">
     <figcaption>Comparison of <em>mean absolute depth error</em> by proposed LCM modules for cost volume aggregation (a) during training on the <em>DTU training set</em>; (b) during validation on the <em>DTU validation set</em>.</figcaption>
 </figure>
 
@@ -521,7 +521,7 @@ As demonstrated in the figure below, we deploy our MVS method into our UAV-based
     <h2>Author Biographies</h2>
 
     <figure>
-        <img src="Authors_pic/Guidong.jpeg" alt="Guidong Yang" width="100" height="125">
+        <img src="Authors_pic/Guidong.jpg" alt="Guidong Yang" width="100" height="125">
         <figcaption>
             <strong>Guidong Yang</strong> received the B.Eng. degree from Shanghai Jiao Tong University (SJTU), Shanghai, China, in 2018, the M.Eng. degree from SJTU and M.Sc. degree from Polytecnic University of Milan, Milan, Italy, in 2021. He is currently pursuing his Ph.D. degree in mechanical and automation engineering, The Chinese University of Hong Kong, Hong Kong, China. His current research interests include object detection and 3D reconstruction.
         </figcaption>
