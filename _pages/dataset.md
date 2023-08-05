@@ -13,7 +13,7 @@ redirect_from:
 
 Deep learning breakthrough stimulates new research trends in civil infrastructure inspection, whereas the lack of quality-guaranteed, human-annotated, free-of-charge, and publicly available defect datasets with sufficient amounts of data hinders the progress of deep learning in defect inspection. To boost research in deep learning-based defect inspection, we review and summarize **40 publicly available defect datasets**, covering common defects in various types of buildings and infrastructures. **The taxonomy of the datasets** is proposed based on **specific deep learning objectives** (classification, segmentation, and detection). Clarifications are also made for each dataset regarding its corresponding **data volume, data resolution, data source, defect categories covered, infrastructure types focused, material types targeted, algorithms adopted for validation, annotation levels, and context levels**.
 
-<img src="https://github.com/CUHK-USR-Group/Defect-Dataset/blob/main/Taxonomy.PNG">
+<img src="/images/Taxonomy.PNG">
 
 As demonstrated in the above figure, the summarized defect datasets cover various types of infrastructure such as pavements, bridges, buildings, tunnels, and dams with different materials such as **concrete, asphalt, steel, masonry, and wood**. These datasets cover the most common defect types: **crack, spalling, delamination, corrosion, and efflorescence**. As to data types, most datasets utilize optical images, with **IRT images, IE signals, and GPR signals as alternatives**. Optical images are typically used to detect surface defects of the structure, while IRT images, IE signals, and GPR signals can reveal subsurface defects. Besides, these datasets vary in the level of image context information, i.e., the pixel level, object level, and scene level. The data contained in different datasets are collected via hand-held sensors, robotic platforms, or UAV platforms. Especially, it is promising to utilize the UAV platform with onboard sensors to conduct defect inspection and data collection in GPS-denied environment.
 
@@ -39,7 +39,7 @@ Image Resolution | Year | Structure Type | Number of Images | Defect Type | Anno
 Sample images of our self-collected defect dataset are as follows:
 
 <p align="center">
-<img src="https://github.com/CUHK-USR-Group/Defect-Dataset/blob/main/Mawan_Sample_Images.png" width=100% height=100%>
+<img src="/images/Mawan_Sample_Images.png" width=100% height=100%>
 </p>
 
 ### Classification-Oriented Defect Dataset
@@ -62,7 +62,7 @@ Dataset | Year | Structure Type | Number of Images |
 
 Sample images of above classification-oriented datasets are as follows:
 <p align="center">
-  <img src="https://github.com/CUHK-USR-Group/Defect-Dataset/blob/main/Classification_Sample_Images.png" width=100% height=100%>
+  <img src="/images/Classification_Sample_Images.png" width=100% height=100%>
 </p>
 
 ### Segmentation-Oriented Defect Dataset
@@ -96,7 +96,7 @@ Dataset | Year | Structure Type | Number of Images |
 Sample images of above segmentation-oriented datasets are as follows:
 
 <p align="center">
-<img src="https://github.com/CUHK-USR-Group/Defect-Dataset/blob/main/Segmentation_Sample_Images.png" width=100% height=100%>
+<img src="/images/Segmentation_Sample_Images.png" width=100% height=100%>
 </p>
 
 ### Detection-Oriented Defect Dataset
@@ -115,6 +115,6 @@ Here, the RDD-2018 and RDD-2019 are omited.
 Sample images of above detection-oriented datasets are as follows:
 
 <p align="center">
-<img src="https://github.com/CUHK-USR-Group/Defect-Dataset/blob/main/Detection_Sample_Images.png" width=45% height=45%>
+<img src="/images/Detection_Sample_Images.png" width=45% height=45%>
 </p>
 
