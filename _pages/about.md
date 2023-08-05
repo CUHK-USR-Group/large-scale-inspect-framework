@@ -7,12 +7,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
-#Learnable Cost Metric Based Multi-View Stereo for Point Cloud Reconstruction
+# Learnable Cost Metric Based Multi-View Stereo for Point Cloud Reconstruction
 <img src="/images/Classification_Sample_Images.png"/>
 
 ## Authors
 
 Guidong Yang, Xunkuai Zhou, Chuanxiang Gao, Xi Chen, and Ben M. Chen, Fellow, IEEE
+
 <img src="/images/Classification_Sample_Images.png"/>
 
 ## Abstract
