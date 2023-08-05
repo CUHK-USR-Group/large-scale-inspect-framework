@@ -7,13 +7,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<embed src="/pdfs/network.pdf" />
+<embed src="/pdfs/network.pdf" type="application/pdf" />
 <h1 style="font-size: 50px; font-family: 'Sama Devanagari';"> Learnable Cost Metric Based Multi-View Stereo for Point Cloud Reconstruction
 </h1>
 
 ## Authors
 
- <a href="https://orcid.org/YOUR-ORCID-ID" target="_blank">
+ <a href="https://orcid.org/0009-0003-2940-8499" target="_blank">
         <img src="https://orcid.org/sites/default/files/images/orcid_16x16(1).gif" alt="ORCID logo">
         Guidong Yang
 </a>
@@ -32,7 +32,7 @@ redirect_from:
 
 ### Unmanned Aerial System 
 
-<a href="https://youtube.com/YOUR-YOUTUBE-CHANNEL" target="_blank">
+<a href="https://youtube.com/watch?v=UJ3akL3gH68" target="_blank">
         <img src="https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico" alt="YouTube logo" width="16" height="16">
         YouTube
     </a>
