@@ -1,6 +1,6 @@
 ---
-permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+permalink: /about
+title: "Learnable Cost Metric Based Multi-View Stereo for Point Cloud Reconstruction"
 excerpt: "About me"
 author_profile: false
 redirect_from: 

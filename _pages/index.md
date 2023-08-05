@@ -2,7 +2,8 @@
 ---
 permalink: /
 layout: default
-title: Learnable Cost Metric Based Multi-View Stereo for Point Cloud Reconstruction
+title: "Learnable Cost Metric Based Multi-View Stereo for Point Cloud Reconstruction"
+author_profile: false
 ---
 
 ## Authors
