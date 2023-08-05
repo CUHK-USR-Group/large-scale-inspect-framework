@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: default
 title: "Dataset"
 permalink: /dataset/
 author_profile: false
