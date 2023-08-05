@@ -17,14 +17,14 @@ redirect_from:
 ## Authors
 
  <a href="https://orcid.org/0000" target="_blank">
-        <img src="https://orcid.org/sites/default/files/images/orcid_16x16(1).gif" alt="ORCID logo">
+        <!--img src="https://orcid.org/sites/default/files/images/orcid_16x16(1).gif" alt="ORCID logo" -->
         Guidong Yang
 </a>
- , Xunkuai Zhou, Chuanxiang Gao,  <a href="https://orcid.org/0009-0003-2940-8499" target="_blank">
-        <img src="https://orcid.org/sites/default/files/images/orcid_16x16(1).gif" alt="ORCID logo">
-        
+ , Xunkuai Zhou, Chuanxiang Gao <a href="https://orcid.org/0009-0003-2940-8499" target="_blank">
+        <!--img src="https://orcid.org/sites/default/files/images/orcid_16x16(1).gif" alt="ORCID logo" -->
+        ,
 </a> <a href="https://orcid.org/0000-0003-2168-9057" target="_blank">
-        <img src="https://orcid.org/sites/default/files/images/orcid_16x16(1).gif" alt="ORCID logo">
+        <!--img src="https://orcid.org/sites/default/files/images/orcid_16x16(1).gif" alt="ORCID logo" -->
         Xi Chen
 </a>, and Ben M. Chen, Fellow, IEEE
 
@@ -121,21 +121,21 @@ Delve into the depths of encoding image features for multi-view feature volumes 
 <p>
 We focus on encoding the extracted image features and the corresponding parameters into our network. A crucial part of this process is depth hypotheses sampling in 3D space:
 </p>
-\[
+$$
 d_l = d_{\text{min},l} + m\frac{d_{\text{max},l} - d_{\text{min},l}}{M_l-1}
-\]
+$$
 <!-- ... Rest of the content ... -->
 
 <h3><strong>Efficient LCM</strong></h3>
 <p>The <i>efficient LCM</i> at network level \( l \) is defined as follows:</p>
 
-\[
+$$
 \begin{aligned}
 \textbf{C}_l &= \mathcal{M}(\textbf{V}_{l,0}, \cdots, \textbf{V}_{l,N})\\
 &= \mathcal{M}(\textbf{B}_{l,0}, \cdots, \textbf{B}_{l,N})\\
 &= AvgPool \left( \alpha_l \textbf{B}_{l,0} \odot \sum\limits_{i=1}^{N}\frac{S_i}{\sum\limits_{i=1}^{N} S_i}\textbf{B}_{l,i} \right)
 \end{aligned}
-\]
+$$
 
 <p>Where \( \textbf{B}_{l,i} \) stands for the batched volumes after evenly separating the original volumes \( \textbf{V}_{l,i} \) into \( K \) batches along the channel dimension. ...</p>
 
@@ -144,21 +144,21 @@ d_l = d_{\text{min},l} + m\frac{d_{\text{max},l} - d_{\text{min},l}}{M_l-1}
 <h3>Cost Volume Regularization and Depth Estimation</h3>
 <p>Following recent learning-based MVS methods, a four-scale 3D CNN is adopted ...</p>
 
-\[
+$$
 \textbf{D}_l = \underset{d_l \in [d_{min,l}, d_{max,l}]}{\argmax} \ \textbf{P}_{l,est}(d_l) + \frac{(d_{max,l} - d_{min,l})}{M_l-1} \max \textbf{P}_{l,est}(d_l)
-\]
+$$
 
 <!-- Continue with the rest of the provided content -->
 
 <h3>Loss Function</h3>
 <p>Most recent learning-based MVS approaches use \( L1 \) loss to minimize ...</p>
 
-\[
+$$
 \begin{aligned}
 \mathcal{L}_l = \sum\limits_{\textbf{x} \in \{\textbf{x}_{valid}\}} - \beta_l |\textbf{P}_{l,gt}(\textbf{x}) - \textbf{P}_{l,est}(\textbf{x})|^{\gamma_l} \cdot \\
 ((1-\textbf{P}_{l,gt}(\textbf{x}))\log(1-\textbf{P}_{l,est}(\textbf{x})) + \textbf{P}_{l,gt}(\textbf{x})\log(\textbf{P}_{l,est}(\textbf{x})))
 \end{aligned}
-\]
+$$
 
 <h3>🔍 <strong>Depth Maps Filtering and Fusion</strong></h3>
 <hr>
@@ -328,6 +328,95 @@ background-color: #f2f2f2;
 
 <!-- The corresponding table content and other datasets would follow -->
 
+<h2>Ablation Study</h2>
+<p id="subsec: ablation">
+In this section, we conduct systematic ablation experiments to analyze the effectiveness and efficiency of each component of our method. All the ablation experiments are conducted on the <em>DTU evaluation set</em>. Please see more ablation studies (BPA, experimental settings, memory, and runtime) in the <strong>Appendix</strong>.
+</p>
+
+<h3>Bottom-up Path Augmentation</h3>
+<p>
+As aforementioned, we introduce the BPA to augment the propagation of low-level features and incorporate more context information for robust feature matching and continuous depth estimation. As shown in the table below, the <em>Baseline</em> model references <a href="#CasMVSNet">[CasMVSNet]</a> and applies FPN for feature extraction, the heuristic variance-based scheme for cost volume aggregation, and \(L1\) loss for optimization. Benefiting from BPA, <em>Model A</em> addresses the over-smoothing depth estimation around the object boundary and achieves significant improvement on the reconstruction <em>completeness</em> (0.370 → 0.344) and <em>overall score</em> (0.367 → 0.354).
+</p>
+
+<figure>
+    <img src="image/depth_curve.pdf" alt="Comparison of mean absolute depth error" width="85%">
+    <figcaption>Comparison of <em>mean absolute depth error</em> by proposed LCM modules for cost volume aggregation (a) during training on the <em>DTU training set</em>; (b) during validation on the <em>DTU validation set</em>.</figcaption>
+</figure>
+
+<h3>LCM Modules and Adapted Focal Loss</h3>
+<p>
+Based on <em>Model A</em>, we adopt the proposed <em>coarse-to-fine LCM</em> (<em>Model B</em>), <em>efficient LCM</em> (<em>Model C</em>) to adaptively fuse multi-view feature volumes into the cost volume. The above figure (a) and (b) show the descent curve of the mean absolute depth error by different cost volume aggregation modules on the <em>DTU training</em> and <em>validation set</em>, respectively, demonstrating that the models with LCM modules produce more accurate depth estimations. The quantitative ablation results on the <em>DTU evaluation set</em> shown in the table below further verify that both  LCM modules effectively improve the reconstruction <em>accuracy</em>, <em>completeness</em>, and <em>overall score</em> by a large margin. Notably, the adapted focal loss significantly boosts the reconstruction quality in terms of <em>completeness</em> and <em>overall score</em> to the state-of-the-art performance (<em>Model D</em> and <em>Model E</em>).
+</p>
+
+<table style="width:80%; margin:auto; border-collapse: collapse;">
+    <caption>Ablation Experiments on Different Components of Proposed Method (\(N=5\), \(W\times H=1152\times864\), \(\tau=0.3\), and \(N_c=3\))</caption>
+    <thead>
+        <tr>
+            <th rowspan="2">Models</th>
+            <th colspan="2">Feature Extraction</th>
+            <th colspan="4">Cost Volume Aggregation</th>
+            <th colspan="2">Loss Function</th>
+            <th colspan="3">Mean Error Distance \(\downarrow\) (mm)</th>
+        </tr>
+        <tr>
+            <th>FPN</th>
+            <th>FPN+BPA</th>
+            <th>Variance</th>
+            <th>AA</th>
+            <th>C-LCM</th>
+            <th>E-LCM</th>
+            <th>L1</th>
+            <th>Focal</th>
+            <th>Acc.</th>
+            <th>Comp.</th>
+            <th>Overall</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Baseline</td>
+            <td>✓</td>
+            <td></td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>✓</td>
+            <td></td>
+            <td>0.364</td>
+            <td>0.370</td>
+            <td>0.367</td>
+        </tr>
+        <!-- ... Continue for each row in the table ... -->
+        <tr>
+            <td>Model E</td>
+            <td></td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>✓</td>
+            <td></td>
+            <td>✓</td>
+            <td>0.362</td>
+            <td><strong>0.274</strong></td>
+            <td>0.318</td>
+        </tr>
+        <!-- ... and so on for the remaining rows ... -->
+    </tbody>
+</table>
+
+<h3>Comparison with Adaptive Aggregation Module</h3>
+<p>
+We compare the proposed LCM modules with adaptive aggregation (AA) module references <a href="#AA-RMVSNet">[AA-RMVSNet]</a>, <a href="#Uni-MVSNet">[Uni-MVSNet]</a> (<em>Model G</em> and <em>Model H</em> as shown in the table below) adopting an additional re-weight network to compute the weight for each feature volume. The results show that our <em>coarse-to-fine LCM</em> (<em>Model B, D</em>) and <em>efficient LCM</em> (<em>Model C, E</em>) outperforms AA in terms of reconstruction <em>accuracy</em>, <em>completeness</em>, and <em>overall score</em>.
+</p>
+
+<h2>Real-World Application for UAV-Based Infrastructure Defect Inspection and Localization</h2>
+<p id="sec: uav">
+As demonstrated in the figure below, we deploy our MVS method into our UAV-based infrastructure defect inspection system for reconstruction-based defect localization, with crack as our target defect.
+</p>
+
+<!-- The rest of the content, including figures and tables, will follow in a similar format. -->
 
 ## Benchmark Performance
 We benchmark our method on the DTU evaluation set and conduct a comprehensive comparison with traditional (geometric) and state-of-the-art learning-based MVS approaches. We follow the standard evaluation procedure~ for quantitative benchmark and summarize the mean error distance metrics (in $mm$, lower the better) including reconstruction accuracy, completeness, and overall score as shown in Table~. With different settings, including the changes of $N$ and $N_c$ (detailed in the Appendix), our method performs an excellent trade-off between the reconstruction accuracy and completeness. It achieves the best performance in terms of the accuracy, completeness and overall score compared with the existing traditional and learning-based methods, indicating the state-of-the-art performance of our method. We qualitatively compare the depth estimation and reconstruction results of several reflective and low-textured scenes with illumination changes on DTU evaluation set in Fig.~ and Fig.~ respectively, where our method achieves more complete depth estimation and dense point cloud reconstruction with fine-grained details preserved benefiting from the proposed LCM scheme, qualitatively verifying the quantitative comparison results.  [htbp!]  }   {!}{  {l l c c c}  \\[-3mm] {*}{Type} & {*}{Methods} & {c}{Mean Error...
