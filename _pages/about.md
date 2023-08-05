@@ -9,19 +9,24 @@ redirect_from:
 ---
 <img src="/images/image/network.pdf"/>
 
-<p>This is an inline equation \( a = b \) and this is a block equation:</p>
-$$ c = d $$
+
 
 <h1 style="font-size: 50px; font-family: 'Sama Devanagari';"> Learnable Cost Metric Based Multi-View Stereo for Point Cloud Reconstruction
 </h1>
 
 ## Authors
 
- <a href="https://orcid.org/0009-0003-2940-8499" target="_blank">
+ <a href="https://orcid.org/0000" target="_blank">
         <img src="https://orcid.org/sites/default/files/images/orcid_16x16(1).gif" alt="ORCID logo">
         Guidong Yang
 </a>
- , Xunkuai Zhou, Chuanxiang Gao, Xi Chen, and Ben M. Chen, Fellow, IEEE
+ , Xunkuai Zhou, Chuanxiang Gao,  <a href="https://orcid.org/0009-0003-2940-8499" target="_blank">
+        <img src="https://orcid.org/sites/default/files/images/orcid_16x16(1).gif" alt="ORCID logo">
+        
+</a> <a href="https://orcid.org/0000-0003-2168-9057" target="_blank">
+        <img src="https://orcid.org/sites/default/files/images/orcid_16x16(1).gif" alt="ORCID logo">
+        Xi Chen
+</a>, and Ben M. Chen, Fellow, IEEE
 
 <img src="/images/Classification_Sample_Images.png"/>
 
@@ -91,6 +96,19 @@ $$ c = d $$
 
 <p><a href="#next-section" style="color: #3498db; text-decoration: none;">Continue to the next section ➡️</a></p>
 
+<p>For the math enthusiasts out there, let's dive into the formulas. Our network, for level \( l \), uniformly samples \( M_l \)-layer depth hypotheses in 3D space from the depth range \( [d_{min,l}, d_{max, l}] \) for the reference camera frustum. The depth calculation is given by:</p>
+
+$$
+d_l = d_{min,l} + m\frac{d_{max,l} - d_{min,l}}{M_l-1}
+$$
+
+<p>Where \( d_{min,l} \) and \( d_{max,l} \) represent the minimum and maximum depth at level \( l \), respectively. The homography matrix \( \textbf{H}_{i}(d_l) \) between the \( i_{th} \) source-view feature map and reference feature map at depth \( d_l \) is defined as:</p>
+
+$$
+\textbf{H}_{i}(d_l) = \textbf{K}_{i}\textbf{R}_{i}(\textbf{I}-\frac{(\textbf{C}_{0} - \textbf{C}_i)\textbf{n}_{0}^T}{d_l})\textbf{R}_{0}^{T}(\textbf{K}_{0})^{-1}
+$$
+
+<p>... and so on with more math content as needed.</p>
 
 ---
 
