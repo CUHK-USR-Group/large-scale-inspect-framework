@@ -2,7 +2,7 @@
 ---
 permalink: /blog
 layout: default
-title: Blog
+title: "Blog"
 ---
 
 Blog posts and updates related to the project will be placed here.
