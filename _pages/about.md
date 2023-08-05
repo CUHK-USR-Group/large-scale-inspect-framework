@@ -13,7 +13,11 @@ redirect_from:
 
 ## Authors
 
- Guidong Yang, Xunkuai Zhou, Chuanxiang Gao, Xi Chen, and Ben M. Chen, Fellow, IEEE
+ <a href="https://orcid.org/YOUR-ORCID-ID" target="_blank">
+        <img src="https://orcid.org/sites/default/files/images/orcid_16x16(1).gif" alt="ORCID logo">
+        Guidong Yang
+</a>
+ , Xunkuai Zhou, Chuanxiang Gao, Xi Chen, and Ben M. Chen, Fellow, IEEE
 
 <img src="/images/Classification_Sample_Images.png"/>
 
@@ -25,7 +29,14 @@ redirect_from:
 ## Benchmark
 
 ## UAV-BASED INFRASTRUCTURE DEFECT INSPECTION SYSTEM
+
 ### Unmanned Aerial System 
+
+<a href="https://youtube.com/YOUR-YOUTUBE-CHANNEL" target="_blank">
+        <img src="https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico" alt="YouTube logo" width="16" height="16">
+        YouTube
+    </a>
+
 ### Defect Detection
 ### 3D Reconstruction System
 ### GIS-based Registration
