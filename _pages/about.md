@@ -90,6 +90,28 @@ redirect_from:
 
 ---
 
+<h2>🧪 Adaptive Cost Volume Pyramid Aggregation</h2>
+<p>
+Delve into the depths of encoding image features for multi-view feature volumes construction and cost volume aggregation.
+</p>
+
+<h3>Depth Hypotheses</h3>
+<p>
+We focus on encoding the extracted image features and the corresponding parameters into our network. A crucial part of this process is depth hypotheses sampling in 3D space:
+</p>
+\[
+d_l = d_{\text{min},l} + m\frac{d_{\text{max},l} - d_{\text{min},l}}{M_l-1}
+\]
+<!-- ... Rest of the content ... -->
+
+<h3>Efficient LCM</h3>
+<p>
+Efficiency is paramount, and our LCM also incorporates an efficient version:
+</p>
+\[
+\mathbf{C}_l = \mathcal{M}(\mathbf{V}_{l,0}, \cdots, \mathbf{V}_{l,N}) = \text{AvgPool} ( \alpha_l \mathbf{B}_{l,0} \odot \sum\limits_{i=1}^{N}\frac{S_i}{\sum\limits_{i=1}^{N} S_i}\mathbf{B}_{l,i} )
+\]
+
 ## Benchmark Performance
 We benchmark our method on the DTU evaluation set and conduct a comprehensive comparison with traditional (geometric) and state-of-the-art learning-based MVS approaches. We follow the standard evaluation procedure~ for quantitative benchmark and summarize the mean error distance metrics (in $mm$, lower the better) including reconstruction accuracy, completeness, and overall score as shown in Table~. With different settings, including the changes of $N$ and $N_c$ (detailed in the Appendix), our method performs an excellent trade-off between the reconstruction accuracy and completeness. It achieves the best performance in terms of the accuracy, completeness and overall score compared with the existing traditional and learning-based methods, indicating the state-of-the-art performance of our method. We qualitatively compare the depth estimation and reconstruction results of several reflective and low-textured scenes with illumination changes on DTU evaluation set in Fig.~ and Fig.~ respectively, where our method achieves more complete depth estimation and dense point cloud reconstruction with fine-grained details preserved benefiting from the proposed LCM scheme, qualitatively verifying the quantitative comparison results.  [htbp!]  }   {!}{  {l l c c c}  \\[-3mm] {*}{Type} & {*}{Methods} & {c}{Mean Error...
 <img src="/images/image/TNT-Compare-2.pdf"/>
