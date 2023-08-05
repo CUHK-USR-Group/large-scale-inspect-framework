@@ -1,7 +1,7 @@
 # List each menu item
 main:
   - title: "Home"
-    url: "/index"
+    url: "/"
   - title: "Demo"
     url: "/demo"
   - title: "Dataset"

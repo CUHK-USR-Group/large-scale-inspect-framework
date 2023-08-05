@@ -1,5 +1,5 @@
 ---
-permalink: /about
+permalink: /
 title: "Learnable Cost Metric Based Multi-View Stereo for Point Cloud Reconstruction"
 excerpt: "About me"
 author_profile: false
