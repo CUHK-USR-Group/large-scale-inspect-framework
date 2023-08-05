@@ -7,7 +7,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<embed src="/pdfs/network.pdf" type="application/pdf" />
+<img src="/images/image/network.pdf"/>
+
 <h1 style="font-size: 50px; font-family: 'Sama Devanagari';"> Learnable Cost Metric Based Multi-View Stereo for Point Cloud Reconstruction
 </h1>
 
