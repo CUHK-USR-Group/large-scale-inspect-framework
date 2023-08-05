@@ -1,5 +1,8 @@
+
 ---
+permalink: /demo
 layout: default
+title: Demo
 ---
 
-Content for Demo page
+Content related to demos will be placed here.

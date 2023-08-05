@@ -1,5 +1,8 @@
+
 ---
+permalink: /blog
 layout: default
+title: Blog
 ---
 
-Content for Blog page
+Blog posts and updates related to the project will be placed here.

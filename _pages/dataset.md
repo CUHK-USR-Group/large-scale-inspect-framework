@@ -1,5 +1,8 @@
+
 ---
+permalink: /dataset
 layout: default
+title: Dataset
 ---
 
-Content for Dataset page
+Details and links related to the dataset used in the paper will be placed here.
