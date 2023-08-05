@@ -39,7 +39,7 @@ Image Resolution | Year | Structure Type | Number of Images | Defect Type | Anno
 Sample images of our self-collected defect dataset are as follows:
 
 <p align="center">
-<img src="/images/Mawan_Sample_Images.png" width=100% height=100%>
+<img src="/images/Mawan_Sample_Images.png">
 </p>
 
 ### Classification-Oriented Defect Dataset
@@ -61,9 +61,9 @@ Dataset | Year | Structure Type | Number of Images |
 | | | Total | 13,250,948
 
 Sample images of above classification-oriented datasets are as follows:
-<p align="center">
-  <img src="/images/Classification_Sample_Images.png" width=100% height=100%>
-</p>
+
+  <img src="/images/Classification_Sample_Images.png">
+
 
 ### Segmentation-Oriented Defect Dataset
 
@@ -95,9 +95,8 @@ Dataset | Year | Structure Type | Number of Images |
 
 Sample images of above segmentation-oriented datasets are as follows:
 
-<p align="center">
-<img src="/images/Segmentation_Sample_Images.png" width=100% height=100%>
-</p>
+<img src="/images/Segmentation_Sample_Images.png" >
+
 
 ### Detection-Oriented Defect Dataset
 
