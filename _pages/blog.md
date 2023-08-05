@@ -1,6 +1,7 @@
 
 ---
-permalink: /blog
+permalink: /blog/
+author_profile: false
 layout: default
 title: "Blog"
 ---
