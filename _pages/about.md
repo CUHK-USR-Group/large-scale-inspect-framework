@@ -36,6 +36,9 @@ redirect_from:
         <img src="https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico" alt="YouTube logo" width="16" height="16">
         YouTube
     </a>
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/UJ3akL3gH68?autoplay=1&mute=1">
+</iframe>
 
 ### Defect Detection
 ### 3D Reconstruction System
