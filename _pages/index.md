@@ -1,7 +1,7 @@
 
 ---
-permalink: /
-layout: default
+permalink: /index
+layout: archive
 title: "Learnable Cost Metric Based Multi-View Stereo for Point Cloud Reconstruction"
 author_profile: false
 ---
