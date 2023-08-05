@@ -9,6 +9,9 @@ redirect_from:
 ---
 <img src="/images/image/network.pdf"/>
 
+<p>This is an inline equation \( a = b \) and this is a block equation:</p>
+$$ c = d $$
+
 <h1 style="font-size: 50px; font-family: 'Sama Devanagari';"> Learnable Cost Metric Based Multi-View Stereo for Point Cloud Reconstruction
 </h1>
 
