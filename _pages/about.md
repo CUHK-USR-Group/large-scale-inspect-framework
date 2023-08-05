@@ -348,7 +348,7 @@ As aforementioned, we introduce the BPA to augment the propagation of low-level 
 Based on <em>Model A</em>, we adopt the proposed <em>coarse-to-fine LCM</em> (<em>Model B</em>), <em>efficient LCM</em> (<em>Model C</em>) to adaptively fuse multi-view feature volumes into the cost volume. The above figure (a) and (b) show the descent curve of the mean absolute depth error by different cost volume aggregation modules on the <em>DTU training</em> and <em>validation set</em>, respectively, demonstrating that the models with LCM modules produce more accurate depth estimations. The quantitative ablation results on the <em>DTU evaluation set</em> shown in the table below further verify that both  LCM modules effectively improve the reconstruction <em>accuracy</em>, <em>completeness</em>, and <em>overall score</em> by a large margin. Notably, the adapted focal loss significantly boosts the reconstruction quality in terms of <em>completeness</em> and <em>overall score</em> to the state-of-the-art performance (<em>Model D</em> and <em>Model E</em>).
 </p>
 
-<table style="width:80%; margin:auto; border-collapse: collapse;">
+<table class="benchmark-table" style=" width:80%; margin:auto; border-collapse: collapse;">
     <caption>Ablation Experiments on Different Components of Proposed Method (\(N=5\), \(W\times H=1152\times864\), \(\tau=0.3\), and \(N_c=3\))</caption>
     <thead>
         <tr>
@@ -387,7 +387,62 @@ Based on <em>Model A</em>, we adopt the proposed <em>coarse-to-fine LCM</em> (<e
             <td>0.370</td>
             <td>0.367</td>
         </tr>
-        <!-- ... Continue for each row in the table ... -->
+        <tr>
+            <td>Model A</td>
+            <td></td>
+            <td>✓</td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>✓</td>
+            <td></td>
+            <td>0.364</td>
+            <td>0.344</td>
+            <td>0.354</td>
+        </tr>
+        <tr>
+            <td>Model B</td>
+            <td></td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td>✓</td>
+            <td></td>
+            <td>✓</td>
+            <td></td>
+            <td>0.355</td>
+            <td>0.335</td>
+            <td>0.345</td>
+        </tr>
+        <tr>
+            <td>Model C</td>
+            <td></td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>✓</td>
+            <td>✓</td>
+            <td></td>
+            <td><strong>0.348</strong></td>
+            <td>0.331</td>
+            <td>0.340</td>
+        </tr>
+        <tr>
+            <td>Model D</td>
+            <td></td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td>✓</td>
+            <td>0.358</td>
+            <td>0.275</td>
+            <td><strong>0.317</strong></td>
+        </tr>
         <tr>
             <td>Model E</td>
             <td></td>
@@ -402,7 +457,34 @@ Based on <em>Model A</em>, we adopt the proposed <em>coarse-to-fine LCM</em> (<e
             <td><strong>0.274</strong></td>
             <td>0.318</td>
         </tr>
-        <!-- ... and so on for the remaining rows ... -->
+        <tr>
+            <td>Model G</td>
+            <td></td>
+            <td>✓</td>
+            <td></td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td>✓</td>
+            <td></td>
+            <td>0.356</td>
+            <td>0.334</td>
+            <td>0.345</td>
+        </tr>
+        <tr>
+            <td>Model H</td>
+            <td></td>
+            <td>✓</td>
+            <td></td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>✓</td>
+            <td>0.364</td>
+            <td>0.279</td>
+            <td>0.321</td>
+        </tr>
     </tbody>
 </table>
 
@@ -418,30 +500,67 @@ As demonstrated in the figure below, we deploy our MVS method into our UAV-based
 
 <!-- The rest of the content, including figures and tables, will follow in a similar format. -->
 
-## Benchmark Performance
-We benchmark our method on the DTU evaluation set and conduct a comprehensive comparison with traditional (geometric) and state-of-the-art learning-based MVS approaches. We follow the standard evaluation procedure~ for quantitative benchmark and summarize the mean error distance metrics (in $mm$, lower the better) including reconstruction accuracy, completeness, and overall score as shown in Table~. With different settings, including the changes of $N$ and $N_c$ (detailed in the Appendix), our method performs an excellent trade-off between the reconstruction accuracy and completeness. It achieves the best performance in terms of the accuracy, completeness and overall score compared with the existing traditional and learning-based methods, indicating the state-of-the-art performance of our method. We qualitatively compare the depth estimation and reconstruction results of several reflective and low-textured scenes with illumination changes on DTU evaluation set in Fig.~ and Fig.~ respectively, where our method achieves more complete depth estimation and dense point cloud reconstruction with fine-grained details preserved benefiting from the proposed LCM scheme, qualitatively verifying the quantitative comparison results.  [htbp!]  }   {!}{  {l l c c c}  \\[-3mm] {*}{Type} & {*}{Methods} & {c}{Mean Error...
-<img src="/images/image/TNT-Compare-2.pdf"/>
+<!-- Conclusion Section -->
+<section>
+    <h2>Conclusion</h2>
+    <p>
+        We have presented the LCM-MVSNet for accurate and complete multi-view depth estimation and dense point cloud reconstruction, proposed the LCM scheme for adaptive cost volume aggregation, enhanced the shallow feature information flow to smooth depth estimation, and adapted the focal loss into the end-to-end MVS supervision to reduce ambiguity. The proposed MVS method has been extensively evaluated on three benchmark datasets and deployed into our UAV-based infrastructure defect inspection system for reconstruction-based defect localization, demonstrating the effectiveness, efficiency, and scalability of our method.
+    </p>
+</section>
 
----
+<!-- References (Not included in LaTeX snippet, placeholder for now) -->
+<section>
+    <h2>References</h2>
+    <p>
+        [List of references]
+    </p>
+</section>
 
-## Real-World Application for UAV-Based Infrastructure Defect Inspection and Localization
-As demonstrated in Fig.~, we deploy our MVS method into our UAV-based infrastructure defect inspection system for reconstruction-based defect localization, with crack as our target defect.  As shown in Fig.~ (a), three UAVs are used to speed up the image collection for defect detection and reconstruction of the target warehouse. Each UAV will reach the best region according to the task assignment method. After reaching the best region, viewpoints can be generated based on the building morphology. Furthermore, these viewpoints are regarded as the nodes of a traveling salesman problem to determine the shortest path that travels through all these viewpoints. Finally, the generated path will be executed by each UAV to collect the images for inspection and reconstruction. The multi-UAV-based data collection can speed up the overall image collection process by more than 3 times. [htbp!]%  [width=0.85]{image/defects.pdf}      Based on our UAS system, we collect $923$ images with crack defect from different directions of the target warehouse for defect detection. We train and compare the performance of the state-of-the-art object detection methods on our established defect...
-<img src="/images/image/defects.pdf"/>
+<!-- Author Biographies -->
+<section>
+    <h2>Author Biographies</h2>
 
+    <figure>
+        <img src="Authors_pic/Guidong.jpeg" alt="Guidong Yang" width="100" height="125">
+        <figcaption>
+            <strong>Guidong Yang</strong> received the B.Eng. degree from Shanghai Jiao Tong University (SJTU), Shanghai, China, in 2018, the M.Eng. degree from SJTU and M.Sc. degree from Polytecnic University of Milan, Milan, Italy, in 2021. He is currently pursuing his Ph.D. degree in mechanical and automation engineering, The Chinese University of Hong Kong, Hong Kong, China. His current research interests include object detection and 3D reconstruction.
+        </figcaption>
+    </figure>
 
----
+    <figure>
+        <img src="Authors_pic/xunkuai.jpg" alt="Xunkuai Zhou" width="100" height="125">
+        <figcaption>
+            <strong>Xunkuai Zhou</strong> is currently pursuing his Ph.D. degree in control science and engineering, Tongji University, Shanghai, China. He is currently involved in research works as a visiting Ph.D. student with the Department of Mechanical and Automation, The Chinese University of Hong Kong, Hong Kong, China. His current research interests include model compression, object detection, object tracking and 3D reconstruction.
+        </figcaption>
+    </figure>
 
-## Conclusion
-We have presented the LCM-MVSNet for accurate and complete multi-view depth estimation and dense point cloud reconstruction, proposed the LCM scheme for adaptive cost volume aggregation, enhanced the shallow feature information flow to smooth depth estimation, and adapted the focal loss into the end-to-end MVS supervision to reduce ambiguity. The proposed MVS method has been extensively evaluated on three benchmark datasets and deployed into our UAV-based in- frastructure defect inspection system for reconstruction-based defect localization, demonstrating the effectiveness, efficiency, and scalability of our method.
+    <figure>
+        <img src="Authors_pic/chuanxiang.jpeg" alt="Chuanxiang Gao" width="100" height="125">
+        <figcaption>
+            <strong>Chuanxiang Gao</strong> received the B.Eng. degree from Northwestern Polytechnical University (NWPU), Xian, China, in 2020. He is currently pursing his Ph.D. degree in mechanical and automation engineering, The Chinese University of Hong Kong, Hong Kong, China. His current research interests include task planning and motion planning.
+        </figcaption>
+    </figure>
 
-<a href="https://youtube.com/watch?v=UJ3akL3gH68" target="_blank">
-        <img src="https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico" alt="YouTube logo" width="16" height="16">
-        YouTube
-    </a>
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/UJ3akL3gH68?autoplay=1&mute=1">
-</iframe>
+    <figure>
+        <img src="Authors_pic/Prof. Patrick.jpeg" alt="Xi Chen" width="100" height="125">
+        <figcaption>
+            <strong>Xi Chen</strong> is now a Research Assistant Professor in the Chinese University of Hong Kong. He has over 10-year experience in sustainable building technology related to the urban energy systems, renewable application in buildings and built environment modelling, and has led or managed multiple research projects including ARC, MOST, RGC and consultancy projects with the local government and industry. He has published over 40 papers in peer-reviewed international journals and coauthored a book in green building and renewable application areas.
 
----
+            Dr. Chen has been awarded the DECRA Fellow in the Australian Research Council and Fulbright Scholar in the Lawrence Berkeley National Laboratory. In addition, he services as the editorial board member of Buildings, Energies and Advances in Applied Energy.
+        </figcaption>
+    </figure>
+
+    <figure>
+        <img src="Authors_pic/Prof.chen" alt="Ben M. Chen" width="100" height="125">
+        <figcaption>
+            <strong>Ben M. Chen</strong> (Fellow, IEEE) is currently a Professor of mechanical and automation engineering with the Chinese University of Hong Kong (CUHK), Hong Kong. He was a Provost's Chair Professor with the Department of Electrical and Computer Engineering, National University of Singapore (NUS), before joining CUHK, in 2018. He was an Assistant Professor with the Department of Electrical Engineering, State University of New York at Stony Brook, NY, USA, from 1992 to 1993. He has authored/co-authored hundreds of journal and conference articles, and a dozen research monographs in control theory and applications, unmanned systems and financial market modeling. His current research interests are in unmanned systems and their applications.
+
+            Dr. Chen is a Fellow of IEEE and Fellow of Academy of Engineering, Singapore. He had served on the editorial boards of a dozen international journals including Automatica and IEEE TRANSACTIONS ON AUTOMATIC CONTROL. He is currently serving as an Editor-in-Chief of Unmanned Systems, and Editor of International Journal of Robust and Nonlinear Control.
+        </figcaption>
+    </figure>
+</section>
+
 
 ## Acknowledgements
+
+This work was supported in part by the InnoHK of 1056 the Government of the Hong Kong Special Administrative 1057 Region via the Hong Kong Centre for Logistics Robotics 1058 and in part by the Research Grants Council of Hong Kong 1059 SAR (Grant No: 14209020 and Grant No: 14206821).
