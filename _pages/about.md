@@ -511,9 +511,42 @@ As demonstrated in the figure below, we deploy our MVS method into our UAV-based
 <!-- References (Not included in LaTeX snippet, placeholder for now) -->
 <section>
     <h2>References</h2>
-    <p>
-        [List of references]
-    </p>
+<ol>
+    <li>Y. Yao, Z. Luo, S. Li, T. Fang, and L. Quan, “Mvsnet: Depth inference for unstructured multi-view stereo,” in <i>Proceedings of the European Conference on Computer Vision (ECCV)</i>, Sep. 2018.</li>
+    <li>Y.Yao, Z.Luo, S.Li, T.Shen, T.Fang, and L.Quan, “Recurrentmvsnet for high-resolution multi-view stereo depth inference,” in <i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>, Jun. 2019.</li>
+    <li>X. Gu, Z. Fan, S. Zhu, Z. Dai, F. Tan, and P. Tan, “Cascade cost volume for high-resolution multi-view stereo and stereo matching,” in <i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</i>, pp. 2495–2504, 2020.</li>
+    <li>J. Zhang, S. Li, Z. Luo, T. Fang, and Y. Yao, “Vis-mvsnet: Visibility-aware multi-view stereo network,” <i>International Journal of Computer Vision</i>, pp. 1–16, 2022.</li>
+    <li>Z. Wei, Q. Zhu, C. Min, Y. Chen, and G. Wang, “Aa-rmvsnet: Adaptive aggregation recurrent multi-view stereo network,” in <i>Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)</i>, pp. 6187–6196, Oct. 2021.</li>
+    <li>X. Ma, Y. Gong, Q. Wang, J. Huang, L. Chen, and F. Yu, “Epp-mvsnet: Epipolar-assembling based depth prediction for multi-view stereo,” in <i>Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)</i>, pp. 5732–5740, Oct. 2021.</li>
+    <li>K. T. Giang, S. Song, and S. Jo, “Curvature-guided dynamic scale networks for multi-view stereo,” <i>arXiv preprint arXiv:2112.05999</i>, 2021.</li>
+        <li>R. Peng, R. Wang, Z. Wang, Y. Lai, and R. Wang, “Rethinking depth estimation for multi-view stereo: A unified representation,” in <i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>, pp. 8645–8654, Jun. 2022.</li>
+    <li>Y. Ding, W. Yuan, Q. Zhu, H. Zhang, X. Liu, Y. Wang, and X. Liu, “Transmvsnet: Global context-aware multi-view stereo network with transformers,” in <i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>, pp. 8585–8594, Jun. 2022.</li>
+    <li>H. Aanæs, R. R. Jensen, G. Vogiatzis, E. Tola, and A. B. Dahl, “Large-scale data for multiple-view stereopsis,” <i>International Journal of Computer Vision</i>, vol. 120, no. 2, pp. 153–168, 2016.</li>
+    <li>H. Yi, Z. Wei, M. Ding, R. Zhang, Y. Chen, G. Wang, and Y.-W. Tai, “Pyramid multi-view stereo net with self-adaptive view aggregation,” in <i>European Conference on Computer Vision</i>, pp. 766–782. Springer, 2020.</li>
+    <li>J. Yan, Z. Wei, H. Yi, M. Ding, R. Zhang, Y. Chen, G. Wang, and Y.-W. Tai, “Dense hybrid recurrent multi-view stereo net with dynamic consistency checking,” in <i>European conference on computer vision</i>, pp. 674–689. Springer, 2020.</li>
+    <li>Z. Wei, Q. Zhu, C. Min, Y. Chen, and G. Wang, “Bidirectional hybrid lstm based recurrent neural network for multi-view stereo,” <i>IEEE Transactions on Visualization and Computer Graphics</i>, DOI 10.1109/TVCG.2022.3165860, pp. 1–1, 2022.</li>
+    <li>T.-Y. Lin, P. Goyal, R. Girshick, K. He, and P. Dolla ́r, “Focal loss for dense object detection,” in <i>Proceedings of the IEEE international conference on computer vision</i>, pp. 2980–2988, 2017.</li>
+    <li>X. Li, W. Wang, L. Wu, S. Chen, X. Hu, J. Li, J. Tang, and J. Yang, “Generalized focal loss: Learning qualified and distributed bounding boxes for dense object detection,” <i>Advances in Neural Information Processing Systems</i>, vol. 33, pp. 21 002–21 012, 2020.</li>
+    <li>Y. Chen, S. Lai, J. Cui, B. Wang, and B. M. Chen, “Gpu-accelerated incremental euclidean distance transform for online motion planning of mobile robots,” <i>IEEE Robotics and Automation Letters</i>, vol. 7, DOI 10.1109/LRA.2022.3177852, no. 3, pp. 6894–6901, 2022.</li>
+    <li>K. Liu and B. M. Chen, “Industrial uav-based unsupervised domain adaptive crack recognitions: From database towards real-site infrastructural inspections,” <i>IEEE Transactions on Industrial Electronics</i>, vol. 70, DOI 10.1109/TIE.2022.3204953, no. 9, pp. 9410–9420, 2023.</li>
+    <li>S. Liu, L. Qi, H. Qin, J. Shi, and J. Jia, “Path aggregation network for instance segmentation,” in <i>Proceedings of the IEEE conference on computer vision and pattern recognition</i>, pp. 8759–8768, 2018.</li>
+    <li>S. R. Bulo, L. Porzi, and P. Kontschieder, “In-place activated batchnorm for memory-optimized training of dnns,” in <i>Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</i>, pp. 5639–5647, 2018.</li>
+    <li>Y.Furukawa and J.Ponce, “Accurate, dense, and robust multi-view stereopsis,” <i>IEEE Transactions on Pattern Analysis and Machine Intelligence</i>, vol. 32, DOI 10.1109/TPAMI.2009.161, no. 8, pp. 1362–1376, 2010.</li>
+    <li>E. Tola, C. Strecha, and P. Fua, “Efficient large-scale multi-view stereo for ultra high-resolution image sets,” <i>Machine Vision and Applications</i>, vol. 23, no. 5, pp. 903–920, 2012.</li>
+    <li>N. D. Campbell, G. Vogiatzis, C. Herna ́ndez, and R. Cipolla, “Using multiple hypotheses to improve depth-maps for multi-view stereo,” in <i>European Conference on Computer Vision</i>, pp. 766–779. Springer, 2008.</li>
+    <li>S.Galliani, K.Lasinger, and K.Schindler, “Massively parallel multi-view stereopsis by surface normal diffusion,” in <i>2015 IEEE International Conference on Computer Vision (ICCV)</i>, DOI 10.1109/ICCV.2015.106, pp. 873–881, 2015.</li>
+    <li>J.L.Schö ̈nberger and J.-M.Frahm, “Structure-from-motion revisited,” in <i>2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, DOI 10.1109/CVPR.2016.445, pp. 4104–4113, 2016.</li>
+    <li>J. L. Schönberger, E. Zheng, M. Pollefeys, and J.-M. Frahm, “Pixel-wise view selection for unstructured multi-view stereo,” in <i>European Conference on Computer Vision (ECCV)</i>, 2016.</li>
+    <li>M.Ji, J.Gall, H.Zheng, Y.Liu, and L.Fang, “Surfacenet: An end-to-end 3d neural network for multiview stereopsis,” in <i>2017 IEEE International Conference on Computer Vision (ICCV)</i>, DOI 10.1109/ICCV.2017.253, pp. 2326–2334, 2017.</li>
+    <li>R. Chen, S. Han, J. Xu, and H. Su, “Point-based multi-view stereo network,” in <i>Proceedings of the IEEE/CVF international conference on computer vision</i>, pp. 1538–1547, 2019.</li>
+    <li>Z. Yu and S. Gao, “Fast-mvsnet: Sparse-to-dense multi-view stereo with learned propagation and gauss-newton refinement,” in <i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>, Jun. 2020.</li>
+    <li>F. Wang, S. Galliani, C. Vogel, P. Speciale, and M. Pollefeys, “Patch-matchnet: Learned multi-view patchmatch stereo,” in <i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>, pp. 14,194–14,203, Jun. 2021.</li>
+    <li>J. Yang, W. Mao, J. M. Alvarez, and M. Liu, “Cost volume pyramid based depth inference for multi-view stereo,” in <i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</i>, pp. 4877–4886, 2020.</li>
+    <li>F. Wang, S. Galliani, C. Vogel, and M. Pollefeys, “Itermvs: Iterative probability estimation for efficient multi-view stereo,” in <i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</i>, pp. 8606–8615, 2022.</li>
+    <li>G. Yang, K. Liu, J. Zhang, B. Zhao, Z. Zhao, X. Chen, and B. M. Chen, “Datasets and processing methods for boosting visual inspection of civil infrastructure: A comprehensive review and algorithm comparison for crack classification, segmentation, and detection,” <i>Construction and Building Materials</i>, vol. 356, DOI <a href="https://doi.org/10.1016/j.conbuildmat.2022.129226">https://doi.org/10.1016/j.conbuildmat.2022.129226</a>, p. 129226, 2022. <a href="https://www.sciencedirect.com/science/article/pii/S0950061822028823">Online Available</a></li>
+</ol>
+
+
 </section>
 
 <!-- Author Biographies -->
