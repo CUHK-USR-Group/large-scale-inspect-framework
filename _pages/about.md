@@ -48,16 +48,16 @@ Guidong Yang, Xunkuai Zhou, Chuanxiang Gao,  Xi Chen
 </div>
 <h3>
 Depth estimation performance on the <i>DTU</i> dataset</h3>
-<div class="image-container">
+<div class="image-container" style="margin: 20px auto;">
         <img src="images/dtu_depth-2.pdf" alt="DTU depth comparison" width="85%">
         <p>Qualitative comparison of the depth map estimations on <em>Scan13</em> (1st row) and <em>Scan33</em> (2nd row) of the <em>DTU evaluation set</em>.</p>
 </div>
 
 ----
 <h3>
-Reconstruction performance on the<i> DTU</i> dataset </h3>
+Reconstruction performance on the<i> DTU </i> dataset </h3>
 
-<div class="image-container">
+<div class="image-container" style="margin: 20px auto;">
     <img src="images/dtu_points-5.pdf" alt="DTU depth comparison" width="85%">
     <p> The visualization of the reconstruction errors of the four scenes including <em> Family</em>, <em>Francis</em>, <em>Auditorium</em>, and <em>Courtroom </em> on the Tanks and Temples benchmark. ( \tau \) is the per-scene point distance threshold defined by the benchmark and darker color indicates a larger reconstruction error with respect to ( \tau \).</p>  
 </div>
