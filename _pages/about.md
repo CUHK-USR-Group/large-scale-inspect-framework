@@ -17,7 +17,7 @@ redirect_from:
 </h2>
 <div style=" text-align: center; font-size: 17px;">
 Guidong Yang<sup>1</sup> , Xunkuai Zhou<sup>1, 2</sup>, Chuanxiang Gao<sup>1</sup>,  Xi Chen<sup>1</sup>
-, and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a>, Fellow, IEEE
+, and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a><sup>1</sup>, Fellow, IEEE
 </div>
 <div  style="text-align: center; font-size: 17px;" >
 1. The Chinese University of Hong Kong &nbsp; &nbsp; &nbsp; 2.Tongji University
@@ -54,7 +54,7 @@ Guidong Yang<sup>1</sup> , Xunkuai Zhou<sup>1, 2</sup>, Chuanxiang Gao<sup>1</su
 </div>
 <h3>
 Depth estimation performance on the <i>DTU</i> dataset</h3>
-<div class="image-container" style="margin: 20px auto; text-align: center;">
+<div class="image-container" style="margin: 40px auto; text-align: center;">
         <img src="images/dtu_depth-2.pdf" alt="DTU depth comparison" width="85%">
         <p>Qualitative comparison of the depth map estimations on <em>Scan13</em> (1st row) and <em>Scan33</em> (2nd row) of the <em>DTU evaluation set</em>.</p>
 </div>
@@ -63,7 +63,7 @@ Depth estimation performance on the <i>DTU</i> dataset</h3>
 <h3>
 Reconstruction performance on the<i> DTU </i> dataset </h3>
 
-<div class="image-container" style="margin: 20px auto;text-align: center;">
+<div class="image-container" style="margin: 40px auto;text-align: center;">
     <img src="images/dtu_points-5.pdf" alt="DTU depth comparison" width="85%">
     <p> The visualization of the reconstruction errors of the four scenes including <em> Family</em>, <em>Francis</em>, <em>Auditorium</em>, and <em>Courtroom </em> on the Tanks and Temples benchmark. ( \tau \) is the per-scene point distance threshold defined by the benchmark and darker color indicates a larger reconstruction error with respect to ( \tau \).</p>  
 </div>
@@ -73,7 +73,7 @@ Reconstruction performance on the<i> DTU </i> dataset </h3>
 <h3>
 Reconstruction performance on the<i> Tanks and Temples</i> dataset </h3>
 
-<div class="image-container"  style="margin: 20px auto; text-align: center;">
+<div class="image-container"  style="margin: 40px auto; text-align: center;">
     <img src="images/TNT-Compare-2.pdf" alt="DTU depth comparison" width="85%">
     <p> The visualization of the reconstruction errors of the four scenes including <em> Family</em>, <em>Francis</em>, <em>Auditorium</em>, and <em>Courtroom </em> on the Tanks and Temples benchmark. ( \tau \) is the per-scene point distance threshold defined by the benchmark and darker color indicates a larger reconstruction error with respect to ( \tau \).</p>  
 </div>
