@@ -4,8 +4,8 @@ title: ""
 excerpt: "About the paper"
 author_profile: false
 redirect_from: 
-  - /about/
-  - /about.html
+  /about/
+  /about.html
 ---
 
 
@@ -15,7 +15,7 @@ redirect_from:
 <h2  style="text-align: center; font-size: 25px; font-family: 'Sama Devanagari';">
     Submitted to IEEE TRANSACTIONS ON INDUSTRIAL ELECTRONICS
 </h2>加上标
-<div style="color: rgb(255,255,255); text-align: center; font-size: 17px;">
+<div style=" text-align: center; font-size: 17px;">
 Guidong Yang, Xunkuai Zhou, Chuanxiang Gao,  Xi Chen
 , and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a>, Fellow, IEEE
 </div>
@@ -23,27 +23,36 @@ Guidong Yang, Xunkuai Zhou, Chuanxiang Gao,  Xi Chen
 1. CUHK 2.TJ
 
 </div>
+<span style="display: flex; flex-direction: row; margin: 10px auto; justify-content: center">
+
+<button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px;border: none; border-radius: 5px;"><a href="https://www.overleaf.com/project/64acc26ed265fde278ed8fb4" style="color: white; text-decoration: none;">Paper</a></button>
+
+<button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;"><a href="#detailed-section" style="color: white; text-decoration: none;">Dataset</a></button>
+
+<button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;"><a href="#detailed-section" style="color: white; text-decoration: none;">Supplementary</a></button>
+
+</span>
+
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h2>Abstract</h2>
 </div>
 <div>
-<hr>
-3D reconstruction is essential to defect local- ization. This paper proposes LCM-MVSNet, a novel multi- view stereo (MVS) network with learnable cost metric (LCM) for more accurate and complete dense point cloud recon- struction. To adapt to the scene variation and improve the reconstruction quality in non-Lambertian low-textured scenes, we propose LCM to adaptively aggregate multi- view matching similarity into the 3D cost volume by lever- aging sparse point hints. The proposed LCM benefits the MVS approaches in four folds, including depth estimation enhancement, reconstruction quality improvement, mem- ory footprint reduction, and computational burden alle- viation, allowing the depth inference for high-resolution images to achieve more accurate and complete recon- struction. Additionally, we improve the depth estimation by enhancing the shallow feature propagation via a bottom- up pathway and strengthen the end-to-end supervision by adapting the focal loss to reduce ambiguity caused by sample imbalance. Extensive experiments are carefully conducted on three benchmark datasets to validate that our method achieves state-of-the-art performance on the DTU and BlendedMVS dataset, and exhibits strong generaliza- tion ability with a competitive performance on the Tanks and Temples benchmark. Furthermore, we deploy our LCM- MVSNet into our UAV-based infrastructure defect inspec- tion system for reconstruction-based defect localization, demonstrating the effectiveness, efficiency, and scalability of our method. More experiment results can be found in the <a href="http://shorturl.at/xFRSU">Appendix</a>
-<button style="background-color: #3498db; color: white; padding: 10px 15px; border: none; border-radius: 5px;"><a href="#full-paper" style="color: white; text-decoration: none;">Dive Deeper</a></button>
+
+3D reconstruction is essential to defect localization. This paper proposes LCM-MVSNet, a novel multiview stereo (MVS) network with learnable cost metric (LCM) for more accurate and complete dense point cloud reconstruction. To adapt to the scene variation and improve the reconstruction quality in non-Lambertian low-textured scenes, we propose LCM to adaptively aggregate multiview matching similarity into the 3D cost volume by leveraging sparse point hints. The proposed LCM benefits the MVS approaches in four folds, including depth estimation enhancement, reconstruction quality improvement, memory footprint reduction, and computational burden alleviation, allowing the depth inference for high-resolution images to achieve more accurate and complete reconstruction. Additionally, we improve the depth estimation by enhancing the shallow feature propagation via a bottomup pathway and strengthen the end-to-end supervision by adapting the focal loss to reduce ambiguity caused by sample imbalance. Extensive experiments are carefully conducted on three benchmark datasets to validate that our method achieves state-of-the-art performance on the DTU and BlendedMVS dataset, and exhibits strong generalization ability with a competitive performance on the Tanks and Temples benchmark. Furthermore, we deploy our LCMMVSNet into our UAV-based infrastructure defect inspection system for reconstruction-based defect localization, demonstrating the effectiveness, efficiency, and scalability of our method. More experiment results can be found in the <a href="http://shorturl.at/xFRSU">Appendix</a>
 
 </div>
 
 ---
 
-<div style="font-size: 36px; text-align: center;">
-    Comparison with the State of the Arts
-
-    
+<div style="font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">    Comparison with the state of the arts
 </div>
+<h4>
+Depth estimation performance on the DTU dataset</h3>
 <div class="image-container">
         <img src="images/dtu_depth-2.pdf" alt="DTU depth comparison" width="85%">
         <p>Qualitative comparison of the depth map estimations on <em>Scan13</em> (1st row) and <em>Scan33</em> (2nd row) of the <em>DTU evaluation set</em>.</p>
-    </div>
+</div>
+
 ----
 
 <h2>🌐 Introduction to LCM-MVSNet</h2>
@@ -60,7 +69,7 @@ Guidong Yang, Xunkuai Zhou, Chuanxiang Gao,  Xi Chen
 
 <p>Our work isn’t confined to theory. Rigorous tests have spotlighted the prowess of LCM-MVSNet, with standout results on elite datasets like <a href="#DTU-dataset">DTU</a> and <a href="#BlendedMVS-dataset">BlendedMVS</a>. And for the real-world enthusiasts? We’ve integrated our system into a <span style="color: #2ecc71;">UAV-based platform</span>, dramatically transforming aerial infrastructure inspections. Our system, showcased in <a href="#fig1">Fig. 1</a>, melds high-resolution imagery with pinpoint 3D defect localization.</p>
 
-<button style="background-color: #3498db; color: white; padding: 10px 15px; border: none; border-radius: 5px;"><a href="#detailed-section" style="color: white; text-decoration: none;">Explore Further</a></button>
+<button style="background-color: #3498db; color: white; padding: 10px 15px; border: none; border-radius: 5px;"><a href="#detailed-section" style="color: white; text-decoration: none;">Explore Furth</h3>er</a></button>
 
 <img src="/images/image/Framework.pdf"/>
 
@@ -93,13 +102,13 @@ Guidong Yang, Xunkuai Zhou, Chuanxiang Gao,  Xi Chen
 <p>For the math enthusiasts out there, let's dive into the formulas. Our network, for level \( l \), uniformly samples \( M_l \)-layer depth hypotheses in 3D space from the depth range \( [d_{min,l}, d_{max, l}] \) for the reference camera frustum. The depth calculation is given by:</p>
 
 $$
-d_l = d_{min,l} + m\frac{d_{max,l} - d_{min,l}}{M_l-1}
+d_l = d_{min,l} + m\frac{d_{max,l} d_{min,l}}{M_l-1}
 $$
 
 <p>Where \( d_{min,l} \) and \( d_{max,l} \) represent the minimum and maximum depth at level \( l \), respectively. The homography matrix \( \textbf{H}_{i}(d_l) \) between the \( i_{th} \) source-view feature map and reference feature map at depth \( d_l \) is defined as:</p>
 
 $$
-\textbf{H}_{i}(d_l) = \textbf{K}_{i}\textbf{R}_{i}(\textbf{I}-\frac{(\textbf{C}_{0} - \textbf{C}_i)\textbf{n}_{0}^T}{d_l})\textbf{R}_{0}^{T}(\textbf{K}_{0})^{-1}
+\textbf{H}_{i}(d_l) = \textbf{K}_{i}\textbf{R}_{i}(\textbf{I}-\frac{(\textbf{C}_{0} \textbf{C}_i)\textbf{n}_{0}^T}{d_l})\textbf{R}_{0}^{T}(\textbf{K}_{0})^{-1}
 $$
 
 <p>... and so on with more math content as needed.</p>
@@ -116,9 +125,9 @@ Delve into the depths of encoding image features for multi-view feature volumes 
 We focus on encoding the extracted image features and the corresponding parameters into our network. A crucial part of this process is depth hypotheses sampling in 3D space:
 </p>
 $$
-d_l = d_{\text{min},l} + m\frac{d_{\text{max},l} - d_{\text{min},l}}{M_l-1}
+d_l = d_{\text{min},l} + m\frac{d_{\text{max},l} d_{\text{min},l}}{M_l-1}
 $$
-<!-- ... Rest of the content ... -->
+<!-... Rest of the content ... -->
 
 <h3><strong>Efficient LCM</strong></h3>
 <p>The <i>efficient LCM</i> at network level \( l \) is defined as follows:</p>
@@ -133,23 +142,23 @@ $$
 
 <p>Where \( \textbf{B}_{l,i} \) stands for the batched volumes after evenly separating the original volumes \( \textbf{V}_{l,i} \) into \( K \) batches along the channel dimension. ...</p>
 
-<!-- Continue with the rest of the provided content, converting LaTeX to KaTeX notation -->
+<!-Continue with the rest of the provided content, converting LaTeX to KaTeX notation -->
 
 <h3>Cost Volume Regularization and Depth Estimation</h3>
 <p>Following recent learning-based MVS methods, a four-scale 3D CNN is adopted ...</p>
 
 $$
-\textbf{D}_l = \underset{d_l \in [d_{min,l}, d_{max,l}]}{\argmax} \ \textbf{P}_{l,est}(d_l) + \frac{(d_{max,l} - d_{min,l})}{M_l-1} \max \textbf{P}_{l,est}(d_l)
+\textbf{D}_l = \underset{d_l \in [d_{min,l}, d_{max,l}]}{\argmax} \ \textbf{P}_{l,est}(d_l) + \frac{(d_{max,l} d_{min,l})}{M_l-1} \max \textbf{P}_{l,est}(d_l)
 $$
 
-<!-- Continue with the rest of the provided content -->
+<!-Continue with the rest of the provided content -->
 
 <h3>Loss Function</h3>
 <p>Most recent learning-based MVS approaches use \( L1 \) loss to minimize ...</p>
 
 $$
 \begin{aligned}
-\mathcal{L}_l = \sum\limits_{\textbf{x} \in \{\textbf{x}_{valid}\}} - \beta_l |\textbf{P}_{l,gt}(\textbf{x}) - \textbf{P}_{l,est}(\textbf{x})|^{\gamma_l} \cdot \\
+\mathcal{L}_l = \sum\limits_{\textbf{x} \in \{\textbf{x}_{valid}\}} \beta_l |\textbf{P}_{l,gt}(\textbf{x}) \textbf{P}_{l,est}(\textbf{x})|^{\gamma_l} \cdot \\
 ((1-\textbf{P}_{l,gt}(\textbf{x}))\log(1-\textbf{P}_{l,est}(\textbf{x})) + \textbf{P}_{l,gt}(\textbf{x})\log(\textbf{P}_{l,est}(\textbf{x})))
 \end{aligned}
 $$
@@ -189,7 +198,7 @@ $$
 <h3>Benchmark Performance</h3>
 <p><strong>Benchmark on DTU Dataset:</strong> We benchmark our method on the <em>DTU evaluation set</em> and conduct a comprehensive comparison with traditional (geometric) and cutting-edge learning-based MVS strategies. We follow the standard evaluation procedure for quantitative benchmarking and summarize the <em>mean error distance</em> metrics (in mm, lower is better) including reconstruction <em>accuracy</em>, <em>completeness</em>, and <em>overall score</em>.</p>
 
-<!-- The table content would go here. Due to the extensive nature of the table, I'll provide a basic structure as an example. -->
+<!-The table content would go here. Due to the extensive nature of the table, I'll provide a basic structure as an example. -->
 
 <table class="benchmark-table">
     <caption>Quantitative Benchmarking Results on <em>DTU Evaluation Set</em></caption>
@@ -203,7 +212,7 @@ $$
         </tr>
     </thead>
     <tbody>
-        <!-- Geometric Methods -->
+        <!-Geometric Methods -->
         <tr>
             <td rowspan="5">Geometric</td>
             <td>Furu</td>
@@ -236,7 +245,7 @@ $$
             <td>0.532</td>
         </tr>
 
-        <!-- Learning Methods -->
+        <!-Learning Methods -->
         <tr>
             <td rowspan="24">Learning</td>
             <td>SurfaceNet</td>
@@ -250,7 +259,7 @@ $$
             <td>0.527</td>
             <td>0.462</td>
         </tr>
-        <!-- ... following the same pattern for other learning methods ... -->
+        <!-... following the same pattern for other learning methods ... -->
         <tr>
             <td>TransMVSNet<sup>†</sup></td>
             <td>0.360</td>
@@ -258,7 +267,7 @@ $$
             <td>0.316</td>
         </tr>
 
-        <!-- Ours -->
+        <!-Ours -->
         <tr>
             <td rowspan="5"><strong>Ours</strong></td>
             <td>Ours (N=5, N<sub>c</sub>=6)</td>
@@ -316,11 +325,11 @@ background-color: #f2f2f2;
 }
 
 </style>
-<!-- And so on for the other datasets and tables -->
+<!-And so on for the other datasets and tables -->
 
 <p><strong>Benchmark on Tanks and Temples Dataset:</strong> We benchmark our method on both the <em>intermediate set</em> and the <em>advanced set</em> of the <em>Tanks and Temples</em> benchmark...</p>
 
-<!-- The corresponding table content and other datasets would follow -->
+<!-The corresponding table content and other datasets would follow -->
 
 <h2>Ablation Study</h2>
 <p id="subsec: ablation">
@@ -492,9 +501,9 @@ We compare the proposed LCM modules with adaptive aggregation (AA) module refere
 As demonstrated in the figure below, we deploy our MVS method into our UAV-based infrastructure defect inspection system for reconstruction-based defect localization, with crack as our target defect.
 </p>
 
-<!-- The rest of the content, including figures and tables, will follow in a similar format. -->
+<!-The rest of the content, including figures and tables, will follow in a similar format. -->
 
-<!-- Conclusion Section -->
+<!-Conclusion Section -->
 <section>
     <h2>Conclusion</h2>
     <p>
@@ -502,7 +511,7 @@ As demonstrated in the figure below, we deploy our MVS method into our UAV-based
     </p>
 </section>
 
-<!-- References (Not included in LaTeX snippet, placeholder for now) -->
+<!-References (Not included in LaTeX snippet, placeholder for now) -->
 <section>
     <h2>References</h2>
 <ol>
@@ -543,7 +552,7 @@ As demonstrated in the figure below, we deploy our MVS method into our UAV-based
 
 </section>
 
-<!-- Author Biographies -->
+<!-Author Biographies -->
 <section>
     <h2>Author Biographies</h2>
 
