@@ -35,6 +35,16 @@ Guidong Yang, Xunkuai Zhou, Chuanxiang Gao,  Xi Chen
 
 ---
 
+<div style="font-size: 36px; text-align: center;">
+    Comparison with the State of the Arts
+
+    
+</div>
+<div class="image-container">
+        <img src="images/dtu_depth-2.pdf" alt="DTU depth comparison" width="85%">
+        <p>Qualitative comparison of the depth map estimations on <em>Scan13</em> (1st row) and <em>Scan33</em> (2nd row) of the <em>DTU evaluation set</em>.</p>
+    </div>
+----
 
 <h2>🌐 Introduction to LCM-MVSNet</h2>
 <hr>
