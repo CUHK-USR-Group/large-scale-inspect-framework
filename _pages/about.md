@@ -46,14 +46,22 @@ Guidong Yang, Xunkuai Zhou, Chuanxiang Gao,  Xi Chen
 
 <div style="font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">    Comparison with the state of the arts
 </div>
-<h4>
-Depth estimation performance on the DTU dataset</h3>
+<h3>
+Depth estimation performance on the <i>DTU</i> dataset</h3>
 <div class="image-container">
         <img src="images/dtu_depth-2.pdf" alt="DTU depth comparison" width="85%">
         <p>Qualitative comparison of the depth map estimations on <em>Scan13</em> (1st row) and <em>Scan33</em> (2nd row) of the <em>DTU evaluation set</em>.</p>
 </div>
 
 ----
+<h3>
+Reconstruction performance on the<i> Tanks and Temples</i> dataset </h3>
+
+<div class="image-container">
+    <img src="images/TNT-Compare-2.pdf" alt="DTU depth comparison" width="85%">
+    <p>Qualitative comparison of the depth map estimations on <em>Scan13</em> (1st row) and <em>Scan33</em> (2nd row) of the <em>DTU evaluation set</em>.</p>
+</div>
+---
 
 <h2>🌐 Introduction to LCM-MVSNet</h2>
 <hr>
