@@ -10,31 +10,25 @@ redirect_from:
 
 
 
-<h1 style="font-size: 50px; font-family: 'Sama Devanagari';"> Learnable Cost Metric Based Multi-View Stereo for Point Cloud Reconstruction
+<h1 style="text-align: center; font-size: 36px; font-family: 'system-ui';"> Learnable Cost Metric Based Multi-View Stereo for Point Cloud Reconstruction
 </h1>
+<h2  style="text-align: center; font-size: 25px; font-family: 'Sama Devanagari';">
+    Submitted to IEEE TRANSACTIONS ON INDUSTRIAL ELECTRONICS
+</h2>加上标
+<div style="color: rgb(255,255,255); text-align: center; font-size: 17px;">
+Guidong Yang, Xunkuai Zhou, Chuanxiang Gao,  Xi Chen
+, and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a>, Fellow, IEEE
+</div>
+<div  style="text-align: center; font-size: 17px;" >
+1. CUHK 2.TJ
 
-## Authors
-
-Guidong Yang, Xunkuai Zhou, Chuanxiang Gao, Xi Chen
-, and Ben M. Chen, Fellow, IEEE
-
-<img src="/images/Classification_Sample_Images.png"/>
-
-<div style="font-family: 'American Typewriter'; font-weight: 400; "> 
-<h2>🔍 Abstract</h2>
+</div>
+<div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
+<h2>Abstract</h2>
+</div>
+<div>
 <hr>
-<p>Welcome to the evolution of <strong><span style="color: #3498db;">3D reconstruction</span></strong> with the <mark>LCM-MVSNet</mark>. This state-of-the-art system ushers in a new era for multi-view stereo (MVS) reconstructions, offering depth and detail previously unattained.</p>
-
-<blockquote>
-  "Redefining the depth of 3D imaging by merging technology and innovation."
-</blockquote>
-
-<p>Challenging terrains like low-textured or reflective scenes? No problem. Our <em><span style="color: #e74c3c;">Learnable Cost Metric (LCM)</span></em> intelligently fuses images, refining depth intricacies, and delivering unparalleled reconstructions—efficiently and effectively.</p>
-
-<img src="/images/Mawan_Sample_Images.png" alt="LCM-MVSNet Technology" width="500" style="display: block; margin: 0 auto;">
-
-<p>Our rigorous benchmarks highlight the system's unmatched prowess, particularly on esteemed datasets like <a href="#DTU-dataset">DTU</a> and <a href="#BlendedMVS-dataset">BlendedMVS</a>. But it's not just about numbers. We've seamlessly blended our technology into a <span style="color: #2ecc71;">UAV-based platform</span> for aerial inspections, revealing a unique synergy between academic advancement and real-world application.</p>
-
+3D reconstruction is essential to defect local- ization. This paper proposes LCM-MVSNet, a novel multi- view stereo (MVS) network with learnable cost metric (LCM) for more accurate and complete dense point cloud recon- struction. To adapt to the scene variation and improve the reconstruction quality in non-Lambertian low-textured scenes, we propose LCM to adaptively aggregate multi- view matching similarity into the 3D cost volume by lever- aging sparse point hints. The proposed LCM benefits the MVS approaches in four folds, including depth estimation enhancement, reconstruction quality improvement, mem- ory footprint reduction, and computational burden alle- viation, allowing the depth inference for high-resolution images to achieve more accurate and complete recon- struction. Additionally, we improve the depth estimation by enhancing the shallow feature propagation via a bottom- up pathway and strengthen the end-to-end supervision by adapting the focal loss to reduce ambiguity caused by sample imbalance. Extensive experiments are carefully conducted on three benchmark datasets to validate that our method achieves state-of-the-art performance on the DTU and BlendedMVS dataset, and exhibits strong generaliza- tion ability with a competitive performance on the Tanks and Temples benchmark. Furthermore, we deploy our LCM- MVSNet into our UAV-based infrastructure defect inspec- tion system for reconstruction-based defect localization, demonstrating the effectiveness, efficiency, and scalability of our method. More experiment results can be found in the <a href="http://shorturl.at/xFRSU">Appendix</a>
 <button style="background-color: #3498db; color: white; padding: 10px 15px; border: none; border-radius: 5px;"><a href="#full-paper" style="color: white; text-decoration: none;">Dive Deeper</a></button>
 
 </div>
