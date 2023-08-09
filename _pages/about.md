@@ -26,7 +26,7 @@ Guidong Yang<sup>1</sup> , Xunkuai Zhou<sup>1, 2</sup>, Chuanxiang Gao<sup>1</su
 <div style="display: flex; flex-direction: row; margin: 10px auto; justify-content: center"> 
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px;border: none; border-radius: 5px;">
-<a href="https://www.overleaf.com/project/64acc26ed265fde278ed8fb4" style="color: white; text-decoration: none;">Paper</a>
+<a href="https://www.overleaf.com/" style="color: white; text-decoration: none;">Paper</a>
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
