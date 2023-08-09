@@ -16,17 +16,8 @@ redirect_from:
 
 ## Authors
 
- <a href="https://orcid.org/0000" target="_blank">
-        <!--img src="https://orcid.org/sites/default/files/images/orcid_16x16(1).gif" alt="ORCID logo" -->
-        Guidong Yang
-</a>
- , Xunkuai Zhou, Chuanxiang Gao <a href="https://orcid.org/0009-0003-2940-8499" target="_blank">
-        <!--img src="https://orcid.org/sites/default/files/images/orcid_16x16(1).gif" alt="ORCID logo" -->
-        ,
-</a> <a href="https://orcid.org/0000-0003-2168-9057" target="_blank">
-        <!--img src="https://orcid.org/sites/default/files/images/orcid_16x16(1).gif" alt="ORCID logo" -->
-        Xi Chen
-</a>, and Ben M. Chen, Fellow, IEEE
+Guidong Yang, Xunkuai Zhou, Chuanxiang Gao, Xi Chen
+, and Ben M. Chen, Fellow, IEEE
 
 <img src="/images/Classification_Sample_Images.png"/>
 
