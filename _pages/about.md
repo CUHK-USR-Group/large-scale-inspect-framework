@@ -16,7 +16,7 @@ redirect_from:
     Submitted to IEEE TRANSACTIONS ON INDUSTRIAL ELECTRONICS
 </h2>加上标
 <div style=" text-align: center; font-size: 17px;">
-Guidong Yang, Xunkuai Zhou, Chuanxiang Gao,  Xi Chen
+Guidong Yang<sup>1</sup> , Xunkuai Zhou, Chuanxiang Gao,  Xi Chen
 , and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a>, Fellow, IEEE
 </div>
 <div  style="text-align: center; font-size: 17px;" >
