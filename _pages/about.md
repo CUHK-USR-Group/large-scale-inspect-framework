@@ -27,7 +27,7 @@ Guidong Yang, Xunkuai Zhou, Chuanxiang Gao,  Xi Chen
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px;border: none; border-radius: 5px;"><a href="https://www.overleaf.com/project/64acc26ed265fde278ed8fb4" style="color: white; text-decoration: none;">Paper</a></button>
 
-<button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;"><a href="#detailed-section" style="color: white; text-decoration: none;">Dataset</a></button>
+<button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;"><a href="/dataset" style="color: white; text-decoration: none;">Dataset</a></button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;"><a href="#detailed-section" style="color: white; text-decoration: none;">Supplementary</a></button>
 
