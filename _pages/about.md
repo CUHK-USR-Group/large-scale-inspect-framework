@@ -14,24 +14,30 @@ redirect_from:
 </h1>
 <h2  style="text-align: center; font-size: 25px; font-family: 'Sama Devanagari';">
     Submitted to IEEE TRANSACTIONS ON INDUSTRIAL ELECTRONICS
-</h2>加上标
+</h2>
 <div style=" text-align: center; font-size: 17px;">
-Guidong Yang<sup>1</sup> , Xunkuai Zhou, Chuanxiang Gao,  Xi Chen
+Guidong Yang<sup>1</sup> , Xunkuai Zhou<sup>1, 2</sup>, Chuanxiang Gao<sup>1</sup>,  Xi Chen<sup>1</sup>
 , and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a>, Fellow, IEEE
 </div>
 <div  style="text-align: center; font-size: 17px;" >
-1. CUHK 2.TJ
+1. The Chinese University of Hong Kong &nbsp; &nbsp; &nbsp; 2.Tongji University
 
 </div>
-<span style="display: flex; flex-direction: row; margin: 10px auto; justify-content: center"> 
+<div style="display: flex; flex-direction: row; margin: 10px auto; justify-content: center"> 
 
-<button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px;border: none; border-radius: 5px;"><a href="https://www.overleaf.com/project/64acc26ed265fde278ed8fb4" style="color: white; text-decoration: none;">Paper</a></button>
+<button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px;border: none; border-radius: 5px;">
+<a href="https://www.overleaf.com/project/64acc26ed265fde278ed8fb4" style="color: white; text-decoration: none;">Paper</a>
+</button>
 
-<button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;"><a href="/dataset" style="color: white; text-decoration: none;">Dataset</a></button>
+<button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
+<a href="/dataset" style="color: white; text-decoration: none;">Dataset</a>
+</button>
 
-<button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;"><a href="#detailed-section" style="color: white; text-decoration: none;">Supplementary</a></button>
+<button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
+<a href="#detailed-section" style="color: white; text-decoration: none;">Supplementary</a>
+</button>
 
-</span>
+</div>
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h2>Abstract</h2>
@@ -42,7 +48,7 @@ Guidong Yang<sup>1</sup> , Xunkuai Zhou, Chuanxiang Gao,  Xi Chen
 
 </div>
 
----
+-----
 
 <div style="font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">    Comparison with the state of the arts
 </div>
@@ -61,6 +67,7 @@ Reconstruction performance on the<i> DTU </i> dataset </h3>
     <img src="images/dtu_points-5.pdf" alt="DTU depth comparison" width="85%">
     <p> The visualization of the reconstruction errors of the four scenes including <em> Family</em>, <em>Francis</em>, <em>Auditorium</em>, and <em>Courtroom </em> on the Tanks and Temples benchmark. ( \tau \) is the per-scene point distance threshold defined by the benchmark and darker color indicates a larger reconstruction error with respect to ( \tau \).</p>  
 </div>
+
 ---
 
 <h3>
@@ -70,6 +77,7 @@ Reconstruction performance on the<i> Tanks and Temples</i> dataset </h3>
     <img src="images/TNT-Compare-2.pdf" alt="DTU depth comparison" width="85%">
     <p> The visualization of the reconstruction errors of the four scenes including <em> Family</em>, <em>Francis</em>, <em>Auditorium</em>, and <em>Courtroom </em> on the Tanks and Temples benchmark. ( \tau \) is the per-scene point distance threshold defined by the benchmark and darker color indicates a larger reconstruction error with respect to ( \tau \).</p>  
 </div>
+
 ---
 
 
