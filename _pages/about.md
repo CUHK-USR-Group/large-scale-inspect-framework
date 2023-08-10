@@ -78,7 +78,9 @@ Reconstruction performance on the<i> Tanks and Temples</i> dataset </h3>
 </div>
 
 ---
-
+<div style="font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">   Performance in the real world
+</div>
+<div class="sketchfab-embed-wrapper"> <iframe title="Procedural Hong Kong building" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/528a732e84c44fd49c4726f341014a23/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/procedural-hong-kong-building-528a732e84c44fd49c4726f341014a23?utm_medium=embed&utm_campaign=share-popup&utm_content=528a732e84c44fd49c4726f341014a23" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Procedural Hong Kong building </a> by <a href="https://sketchfab.com/udayjeet?utm_medium=embed&utm_campaign=share-popup&utm_content=528a732e84c44fd49c4726f341014a23" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> uday </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=528a732e84c44fd49c4726f341014a23" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
 
 <div style=";font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">  Acknowledgements  </div>
 <div style="text-align: justify">This work was supported by the InnoHK of the Government of the Hong Kong Special Administrative Region via the Hong Kong Centre for Logistics Robotics.
