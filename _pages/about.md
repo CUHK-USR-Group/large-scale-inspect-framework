@@ -29,7 +29,7 @@ Guidong Yang<sup>1</sup>, Xunkuai Zhou<sup>1, 2</sup>, Chuanxiang Gao<sup>1</sup
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
-<a href="/dataset" style="color: white; text-decoration: none;">Dataset</a>
+<a href="https://github.com/CUHK-USR-Group/Defect-Dataset" style="color: white; text-decoration: none;">Dataset</a>
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
