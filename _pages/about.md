@@ -55,7 +55,7 @@ Guidong Yang<sup>1</sup> , Xunkuai Zhou<sup>1, 2</sup>, Chuanxiang Gao<sup>1</su
 <h3>
 Depth estimation performance on the <i>DTU</i> dataset</h3>
 <div class="image-container" style="margin: 40px auto; text-align: center;">
-        <img src="images/dtu_depth-2.pdf" alt="DTU depth comparison" width="85%">
+        <img src="images/dtu_depth-2.png" alt="DTU depth comparison" width="85%">
         <p>Qualitative comparison of the depth map estimations on <em>Scan13</em> (<em>1st</em> row) and <em>Scan33</em> (<em>2nd</em> row) of the <em>DTU evaluation set</em>.</p>
 </div>
 
@@ -64,7 +64,7 @@ Depth estimation performance on the <i>DTU</i> dataset</h3>
 Reconstruction performance on the<i> DTU </i> dataset </h3>
 
 <div class="image-container" style="margin: 40px auto;text-align: center;">
-    <img src="images/dtu_points-5.pdf" alt="DTU depth comparison" width="85%">
+    <img src="images/dtu_points-5.png" alt="DTU depth comparison" width="85%">
     <p>Qualitative comparison of the point cloud reconstruction of <em>Scan12</em> (<em>1st</em> row), <em>Scan13</em> (<em>2nd</em> row) and <em>Scan77</em> (<em>3rd</em> row) on the <em>DTU evaluation set</em>.</p>
 </div>
 
@@ -74,7 +74,7 @@ Reconstruction performance on the<i> DTU </i> dataset </h3>
 Reconstruction performance on the<i> Tanks and Temples</i> dataset </h3>
 
 <div class="image-container"  style="margin: 40px auto; text-align: center;">
-    <img src="images/TNT-Compare-2.pdf" alt="DTU depth comparison" width="85%">
+    <img src="images/TNT-Compare-2.png" alt="DTU depth comparison" width="85%">
     <p> The visualization of the reconstruction errors of the four scenes including <em> Family</em>, <em>Francis</em>, <em>Auditorium</em>, and <em>Courtroom </em> on the <em> Tanks and Temples</em> benchmark. <em>&tau;</em>  is the per-scene point distance threshold defined by the benchmark and darker color indicates a larger reconstruction error with respect to     <em>&tau;</em>.</p>  
 </div>
 
