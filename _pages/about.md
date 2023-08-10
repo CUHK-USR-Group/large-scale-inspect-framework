@@ -16,8 +16,7 @@ redirect_from:
     Submitted to IEEE Transactions on Industrial Electronics
 </h2>
 <div style=" text-align: center; font-size: 17px;">
-Guidong Yang<sup>1</sup> , Xunkuai Zhou<sup>1, 2</sup>, Chuanxiang Gao<sup>1</sup>,  Xi Chen<sup>1</sup>
-, and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a><sup>1</sup>, Fellow, IEEE
+Guidong Yang<sup>1</sup>, Xunkuai Zhou<sup>1, 2</sup>, Chuanxiang Gao<sup>1</sup>,  Xi Chen<sup>1</sup>, and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a><sup>1</sup>, Fellow, IEEE
 </div>
 <div  style="text-align: center; font-size: 17px;" >
 1. The Chinese University of Hong Kong &nbsp; &nbsp; &nbsp; 2.Tongji University
@@ -81,6 +80,6 @@ Reconstruction performance on the<i> Tanks and Temples</i> dataset </h3>
 ---
 
 
-<div style="font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">  Acknowledgements  </div>
-
-This work was supported by the InnoHK of the Government of the Hong Kong Special Administrative Region via the Hong Kong Centre for Logistics Robotics.
+<div style=";font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">  Acknowledgements  </div>
+<div style="text-align: justify">This work was supported by the InnoHK of the Government of the Hong Kong Special Administrative Region via the Hong Kong Centre for Logistics Robotics.
+</div>
