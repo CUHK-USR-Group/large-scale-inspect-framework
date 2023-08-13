@@ -211,7 +211,9 @@ $$
     <img src="images/dtu_points-5.pdf" alt="DTU points comparison" width="85%">
     <p>Qualitative comparison of the point cloud reconstruction of <em>Scan12</em> (1st row), <em>Scan13</em> (2nd row) and <em>Scan77</em> (3rd row) on the <em>DTU evaluation set</em>.</p>
 </div>
-
+<div style="margin: 30px auto; text-align: center;">
+<div class="sketchfab-embed-wrapper"> <iframe style=" height: 600px;" title="(Not GOODMAN) Procedural Hong Kong building" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/528a732e84c44fd49c4726f341014a23/embed"> </iframe> <p style="font-size: 17px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/procedural-hong-kong-building-528a732e84c44fd49c4726f341014a23?utm_medium=embed&utm_campaign=share-popup&utm_content=528a732e84c44fd49c4726f341014a23" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Procedural Hong Kong building </a> by <a href="https://sketchfab.com/udayjeet?utm_medium=embed&utm_campaign=share-popup&utm_content=528a732e84c44fd49c4726f341014a23" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> uday </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=528a732e84c44fd49c4726f341014a23" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+</div>
 <h3>Benchmark Performance</h3>
 <p><strong>Benchmark on DTU Dataset:</strong> We benchmark our method on the <em>DTU evaluation set</em> and conduct a comprehensive comparison with traditional (geometric) and cutting-edge learning-based MVS strategies. We follow the standard evaluation procedure for quantitative benchmarking and summarize the <em>mean error distance</em> metrics (in mm, lower is better) including reconstruction <em>accuracy</em>, <em>completeness</em>, and <em>overall score</em>.</p>
 
