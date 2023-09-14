@@ -88,6 +88,10 @@ frameborder="0"
 allowfullscreen
 style="border: none;"></iframe>
 
+<br>
+
+<div class="sketchfab-embed-wrapper"> <iframe title="Huzhong_downsampled" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/28617af9340f4ee5b6ba50b1a213ff66/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/huzhong-downsampled-28617af9340f4ee5b6ba50b1a213ff66?utm_medium=embed&utm_campaign=share-popup&utm_content=28617af9340f4ee5b6ba50b1a213ff66" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Huzhong_downsampled </a> by <a href="https://sketchfab.com/hyjcde?utm_medium=embed&utm_campaign=share-popup&utm_content=28617af9340f4ee5b6ba50b1a213ff66" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> hyjcde </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=28617af9340f4ee5b6ba50b1a213ff66" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+
 <div style=";font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">  Acknowledgements  </div>
 <div style="text-align: justify">This work was supported by the InnoHK of the Government of the Hong Kong Special Administrative Region via the Hong Kong Centre for Logistics Robotics.
 </div>
