@@ -81,6 +81,13 @@ Reconstruction performance on the<i> Tanks and Temples</i> dataset </h3>
 <div style="font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">   Performance in the real world
 </div>
 
+<iframe src="https://potree.github.io/potree/examples/elevation_profile.html"
+width="100%"
+height="600"
+frameborder="0"
+allowfullscreen
+style="border: none;"></iframe>
+
 <div style=";font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">  Acknowledgements  </div>
 <div style="text-align: justify">This work was supported by the InnoHK of the Government of the Hong Kong Special Administrative Region via the Hong Kong Centre for Logistics Robotics.
 </div>
