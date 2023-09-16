@@ -10,16 +10,15 @@ redirect_from:
 
 
 
-<h1 style="text-align: center; font-size: 36px; font-family: 'system-ui';"> Learnable Cost Metric Based Multi-View Stereo for Point Cloud Reconstruction
-</h1>
+<h1 style="text-align: center; font-size: 36px; font-family: 'system-ui';"> Towards Automated Large-Scale Infrastructure Inspection  </h1>
 <h2  style="text-align: center; font-size: 25px; font-family: 'Sama Devanagari';">
-    Submitted to IEEE Transactions on Industrial Electronics
+    Submitted to 2024 IEEE International Conference on Robotics and Automation
 </h2>
 <div style=" text-align: center; font-size: 17px;">
-Guidong Yang<sup>1</sup>, Xunkuai Zhou<sup>1, 2</sup>, Chuanxiang Gao<sup>1</sup>,  Xi Chen<sup>1</sup>, and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a><sup>1</sup>, Fellow, IEEE
+Guidong Yang, Benyun Zhao, Jihan Zhang, Yijun Huang, Xi Chen, and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a><sup>1</sup>, Fellow, IEEE
 </div>
 <div  style="text-align: center; font-size: 17px;" >
-1. The Chinese University of Hong Kong &nbsp; &nbsp; &nbsp; 2.Tongji University
+The Chinese University of Hong Kong &nbsp; &nbsp; &nbsp;
 
 </div>
 <div style="display: flex; flex-direction: row; margin: 10px auto; justify-content: center"> 
