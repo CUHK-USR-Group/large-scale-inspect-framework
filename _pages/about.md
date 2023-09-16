@@ -32,7 +32,7 @@ The Chinese University of Hong Kong, Hong Kong &nbsp; &nbsp; &nbsp;
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
-<a href="#detailed-section" style="color: white; text-decoration: none;">Supplementary</a>
+<a href="#detailed-section" style="color: white; text-decoration: none;">Appendix</a>
 </button>
 
 </div>
