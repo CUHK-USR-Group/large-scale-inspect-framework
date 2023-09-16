@@ -41,8 +41,7 @@ The Chinese University of Hong Kong &nbsp; &nbsp; &nbsp;
 <h2>Abstract</h2>
 </div>
 <div style="text-align: justify; text-justify:inter-ideograph;">
-
-3D reconstruction is essential to defect localization. This paper proposes LCM-MVSNet, a novel multi-view stereo (MVS) network with learnable cost metric (LCM) for more accurate and complete dense point cloud reconstruction. To adapt to the scene variation and improve the reconstruction quality in non-Lambertian low-textured scenes, we propose LCM to adaptively aggregate multi-view matching similarity into the 3D cost volume by leveraging sparse point hints. The proposed LCM benefits the MVS approaches in four folds, including depth estimation enhancement, reconstruction quality improvement, memory footprint reduction, and computational burden alleviation, allowing the depth inference for high-resolution images to achieve more accurate and complete reconstruction. Additionally, we improve the depth estimation by enhancing the shallow feature propagation via a bottomup pathway and strengthen the end-to-end supervision by adapting the focal loss to reduce ambiguity caused by sample imbalance. Extensive experiments are carefully conducted on three benchmark datasets to validate that our method achieves state-of-the-art performance on the <em> DTU </em>and <em>BlendedMVS</em> dataset, and exhibits strong generalization ability with a competitive performance on the <em> Tanks and Temples </em> benchmark. Furthermore, we deploy our  LCM-MVSNet into our UAV-based infrastructure defect inspection system for reconstruction-based defect localization, demonstrating the effectiveness, efficiency, and scalability of our method. More experiment results can be found in the <a href="http://shorturl.at/xFRSU">Appendix</a>.
+Visual inspection plays a predominant role in surface defect inspection. However, the generalization of existing visual inspection systems to large-scale real-world scenes remains challenging. In this paper, we introduce a novel and practical inspection framework based on advanced unmanned aerial vehicles and learning-based techniques as a significant step towards automating the inspection of large-scale infrastructure. Our framework separates the complex inspection procedure into three stages: <em>Detect</em>, <em>Reconstruct</em>, and <em>Register</em>. For defect detection (<em>Detect</em>), we present an open-source defect dataset tailored for large-scale defect detection. Based on the dataset, we evaluate the most effective real-time object detection algorithms and push the boundary by proposing CUBIT-Net for real-world defect inspection. For infrastructure reconstruction (<em>Reconstruct</em>), we propose a learning-based multi-view stereo (MVS) network to adapt to large-scale scenes, taking as input the multi-view images and outputting the point cloud reconstruction, where its performance has been validated via comparative experiments on the standard MVS datasets, including BlendedMVS, DTU, and Tanks and Temples dataset. For defect localization (<em>Register</em>), we develop a WebGIS platform that incorporates the detected defects and registers them onto the reconstruction model based on geographic information, thereby establishing a reliable reference for maintenance measures. Finally, extensive on-site experiments further demonstrate the effectiveness, efficiency, and scalability of the proposed inspection framework. Dataset and <a href=""> Appendix </a> are available in our project page
 
 </div>
 
@@ -79,17 +78,6 @@ Reconstruction performance on the<i> Tanks and Temples</i> dataset </h3>
 ---
 <div style="font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">   Performance in the real world
 </div>
-
-<div class="sketchfab-embed-wrapper"> <iframe title="Huzhong_downsampled" frameborder="0" style="width: 500px;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/28617af9340f4ee5b6ba50b1a213ff66/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/huzhong-downsampled-28617af9340f4ee5b6ba50b1a213ff66?utm_medium=embed&utm_campaign=share-popup&utm_content=28617af9340f4ee5b6ba50b1a213ff66" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Huzhong_downsampled </a> by <a href="https://sketchfab.com/hyjcde?utm_medium=embed&utm_campaign=share-popup&utm_content=28617af9340f4ee5b6ba50b1a213ff66" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> hyjcde </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=28617af9340f4ee5b6ba50b1a213ff66" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
-<br>
-<br><br><br>
-<iframe src="https://potree.github.io/potree/examples/elevation_profile.html"
-width="100%"
-height="600"
-frameborder="0"
-allowfullscreen
-style="border: none;"></iframe>
-
 
 
 <div style=";font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">  Acknowledgements  </div>
