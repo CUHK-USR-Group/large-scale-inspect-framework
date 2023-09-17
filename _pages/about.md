@@ -49,9 +49,8 @@ Visual inspection plays a predominant role in surface defect inspection. However
 <div style="font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">   Workflow  
 </div>
 
-<h3>
 
-<div class="image-container"  style="margin: 40px auto; text-align: center; font-weight: 400;">
+<div class="image-container"  style="margin: 40px auto; text-align: justify; text-justify:inter-ideograph; font-weight: 400;">
     <img src="images/workflow.png" alt="" width="85%">
 <p>
 The structure of the proposed <strong><em>Detect-Reconstruct-Register</em></strong> framework for large-scale infrastructure inspection. We adopt multi-UAV coverage path planning to collect multi-view images for reconstruction and close-range facade images for surface defect detection. <strong><em>Detect</em></strong>: We deploy the proposed CUBIT-Net trained on the established CUBIT-Det dataset to detect surface flaws. <strong><em>Reconstruct</em></strong>: We leverage the proposed MVS network to predict multi-view depth maps and fuse them to reconstruct the infrastructure. <strong><em>Register</em></strong>: We identify the global position of the detected defects based on GIS.</p>
@@ -61,7 +60,6 @@ The structure of the proposed <strong><em>Detect-Reconstruct-Register</em></stro
 
 
 -----
-
 
 <div style=";font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">  Acknowledgements  </div>
 <div style="text-align: justify">This work was supported by the InnoHK of the Government of the Hong Kong Special Administrative Region via the Hong Kong Centre for Logistics Robotics.
