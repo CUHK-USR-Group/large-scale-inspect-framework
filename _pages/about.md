@@ -10,12 +10,12 @@ redirect_from:
 
 
 
-<h1 style="text-align: center; font-size: 36px; font-family: 'system-ui';"> Detect-Reconstruct-Register Inspection Framework  </h1>
+<h1 style="text-align: center; font-size: 36px; font-family: 'system-ui';"> Inspection Framework  </h1>
 <h2  style="text-align: center; font-size: 25px; font-family: 'Sama Devanagari';">
     Submitted to 2024 IEEE International Conference on Robotics and Automation
 </h2>
 <div style=" text-align: center; font-size: 17px;">
-Guidong Yang, Benyun Zhao, Jihan Zhang, Yijun Huang, <br> Junjie Wen, Xi Chen, and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a>, Fellow, IEEE
+Guidong Yang, Benyun Zhao, Jihan Zhang, Yijun Huang, <br> Junjie Wen, Xi Chen, and Ben M. Chen, Fellow, IEEE
 </div>
 <div  style="text-align: center; font-size: 17px;" >
 The Chinese University of Hong Kong, Hong Kong SAR, China

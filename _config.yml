@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Detect-Reconstruct-Register Inspection Framework"
+title                    : "Towards Automated Large-Scale Infrastructure Inspection"
 title_separator          : "-"
 name                     : &name "Detect-Reconstruct-Register Inspection Framework"
 description              : &description "Learnable Cost Metric Based Multi-View Stereo for Point Cloud Reconstruction"
