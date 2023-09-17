@@ -15,10 +15,10 @@ redirect_from:
     Submitted to 2024 IEEE International Conference on Robotics and Automation
 </h2>
 <div style=" text-align: center; font-size: 17px;">
-Guidong Yang, Benyun Zhao, Jihan Zhang, Yijun Huang, Junjie Wen, Xi Chen, and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a>, Fellow, IEEE
+Guidong Yang, Benyun Zhao, Jihan Zhang, Yijun Huang, <br> Junjie Wen, Xi Chen, and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a>, Fellow, IEEE
 </div>
 <div  style="text-align: center; font-size: 17px;" >
-The Chinese University of Hong Kong, Hong Kong &nbsp; &nbsp; &nbsp;
+The Chinese University of Hong Kong, Hong Kong SAR, China
 
 </div>
 <div style="display: flex; flex-direction: row; margin: 10px auto; justify-content: center"> 
@@ -46,7 +46,7 @@ Visual inspection plays a predominant role in surface defect inspection. However
 </div>
 
 -----
-<div style="font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">   Framework
+<div style="font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">   Inspection Framework
 </div>
 
 
