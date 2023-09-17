@@ -63,5 +63,6 @@ The structure of the proposed <strong><em>Detect-Reconstruct-Register</em></stro
 -----
 
 <div style=";font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">  Acknowledgements  </div>
+<br>
 <div style="text-align: justify">This work was supported by the InnoHK of the Government of the Hong Kong Special Administrative Region via the Hong Kong Centre for Logistics Robotics.
 </div>
