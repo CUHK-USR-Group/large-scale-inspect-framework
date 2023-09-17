@@ -46,34 +46,18 @@ Visual inspection plays a predominant role in surface defect inspection. However
 </div>
 
 -----
-
-<div style="font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">    Comparison with the state of the arts
-</div>
-<h3>
-Depth estimation performance on the <i>DTU</i> dataset</h3>
-<div class="image-container" style="margin: 40px auto; text-align: center;">
-        <img src="images/dtu_depth-2.png" alt="DTU depth comparison" width="85%">
-        <p>Qualitative comparison of the depth map estimations on <em>Scan13</em> (<em>1st</em> row) and <em>Scan33</em> (<em>2nd</em> row) of the <em>DTU evaluation set</em>.</p>
+<div style="font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">   Workflow  
 </div>
 
-----
 <h3>
-Reconstruction performance on the<i> DTU </i> dataset </h3>
-
-<div class="image-container" style="margin: 40px auto;text-align: center;">
-    <img src="images/dtu_points-5.png" alt="DTU depth comparison" width="85%">
-    <p>Qualitative comparison of the point cloud reconstruction of <em>Scan12</em> (<em>1st</em> row), <em>Scan13</em> (<em>2nd</em> row) and <em>Scan77</em> (<em>3rd</em> row) on the <em>DTU evaluation set</em>.</p>
-</div>
-
----
-
-<h3>
-Reconstruction performance on the<i> Tanks and Temples</i> dataset </h3>
 
 <div class="image-container"  style="margin: 40px auto; text-align: center;">
-    <img src="images/TNT-Compare-2.png" alt="DTU depth comparison" width="85%">
-    <p> The visualization of the reconstruction errors of the four scenes including <em> Family</em>, <em>Francis</em>, <em>Auditorium</em>, and <em>Courtroom </em> on the <em> Tanks and Temples</em> benchmark. <em>&tau;</em>  is the per-scene point distance threshold defined by the benchmark and darker color indicates a larger reconstruction error with respect to     <em>&tau;</em>.</p>  
+    <img src="images/workflow.png" alt="" width="85%">
+<p>The structure of the proposed <strong><em>Detect-Reconstruct-Register</em></strong> framework for large-scale infrastructure inspection. We adopt multi-UAV coverage path planning to collect multi-view images for reconstruction and close-range facade images for surface defect detection. <strong><em>Detect</em></strong>: We deploy the proposed CUBIT-Net trained on the established CUBIT-Det dataset to detect surface flaws. <strong><em>Reconstruct</em></strong>: We leverage the proposed MVS network to predict multi-view depth maps and fuse them to reconstruct the infrastructure. <strong><em>Register</em></strong>: We identify the global position of the detected defects based on GIS.</p>
+
 </div>
+
+
 
 ---
 
