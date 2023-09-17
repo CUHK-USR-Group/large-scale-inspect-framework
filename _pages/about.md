@@ -10,12 +10,12 @@ redirect_from:
 
 
 
-<h1 style="text-align: center; font-size: 36px; font-family: 'system-ui';"> Towards Automated Large-Scale Infrastructure Inspection  </h1>
+<h1 style="text-align: center; font-size: 36px; font-family: 'system-ui';"> Detect-Reconstruct-Register Inspection Framework  </h1>
 <h2  style="text-align: center; font-size: 25px; font-family: 'Sama Devanagari';">
     Submitted to 2024 IEEE International Conference on Robotics and Automation
 </h2>
 <div style=" text-align: center; font-size: 17px;">
-Guidong Yang, Benyun Zhao, Jihan Zhang, Yijun Huang, Xi Chen, and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a>, Fellow, IEEE
+Guidong Yang, Benyun Zhao, Jihan Zhang, Yijun Huang, Junjie Wen, Xi Chen, and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a>, Fellow, IEEE
 </div>
 <div  style="text-align: center; font-size: 17px;" >
 The Chinese University of Hong Kong, Hong Kong &nbsp; &nbsp; &nbsp;
@@ -41,7 +41,7 @@ The Chinese University of Hong Kong, Hong Kong &nbsp; &nbsp; &nbsp;
 <h2>Abstract</h2>
 </div>
 <div style="text-align: justify; text-justify:inter-ideograph;">
-Visual inspection plays a predominant role in surface defect inspection. However, the generalization of existing visual inspection systems to large-scale real-world scenes remains challenging. In this paper, we introduce a novel and practical inspection framework based on advanced unmanned aerial vehicles and learning-based techniques as a significant step towards automating the inspection of large-scale infrastructure. Our framework separates the complex inspection procedure into three stages: <em>Detect</em>, <em>Reconstruct</em>, and <em>Register</em>. For defect detection (<em>Detect</em>), we present an open-source defect dataset tailored for large-scale defect detection. Based on the dataset, we evaluate the most effective real-time object detection algorithms and push the boundary by proposing CUBIT-Net for real-world defect inspection. For infrastructure reconstruction (<em>Reconstruct</em>), we propose a learning-based multi-view stereo (MVS) network to adapt to large-scale scenes, taking as input the multi-view images and outputting the point cloud reconstruction, where its performance has been validated via comparative experiments on the standard MVS datasets, including BlendedMVS, DTU, and Tanks and Temples dataset. For defect localization (<em>Register</em>), we develop a WebGIS platform that incorporates the detected defects and registers them onto the reconstruction model based on geographic information, thereby establishing a reliable reference for maintenance measures. Finally, extensive on-site experiments further demonstrate the effectiveness, efficiency, and scalability of the proposed inspection framework. Dataset and <a href=""> Appendix </a> are available in our project page
+Visual inspection plays a predominant role in surface defect inspection. However, the generalization of existing visual inspection systems to large-scale real-world scenes remains challenging. In this paper, we introduce a novel and practical inspection framework based on advanced unmanned aerial vehicles and learning-based techniques as a significant step towards automating the inspection of large-scale infrastructure. Our framework separates the complex inspection procedure into three stages: <em>Detect</em>, <em>Reconstruct</em>, and <em>Register</em>. For defect detection (<em>Detect</em>), we present an open-source defect dataset tailored for large-scale defect detection. Based on the dataset, we evaluate the most effective real-time object detection algorithms and push the boundary by proposing CUBIT-Net for real-world defect inspection. For infrastructure reconstruction (<em>Reconstruct</em>), we propose a learning-based multi-view stereo (MVS) network to adapt to large-scale scenes, taking as input the multi-view images and outputting the point cloud reconstruction, where its performance has been validated via comparative experiments on the standard MVS datasets, including BlendedMVS, DTU, and Tanks and Temples dataset. For defect localization (<em>Register</em>), we develop a WebGIS platform that incorporates the detected defects and registers them onto the reconstruction model based on geographic information, thereby establishing a reliable reference for maintenance measures. Finally, extensive on-site experiments further demonstrate the effectiveness, efficiency, and scalability of the proposed inspection framework.
 
 </div>
 
@@ -76,8 +76,6 @@ Reconstruction performance on the<i> Tanks and Temples</i> dataset </h3>
 </div>
 
 ---
-<div style="font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">   Performance in the real world
-</div>
 
 
 <div style=";font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">  Acknowledgements  </div>

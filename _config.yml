@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "LISF"
+title                    : "Detect-Reconstruct-Register Inspection Framework"
 title_separator          : "-"
-name                     : &name "LCM-MVSNet"
+name                     : &name "Detect-Reconstruct-Register Inspection Framework"
 description              : &description "Learnable Cost Metric Based Multi-View Stereo for Point Cloud Reconstruction"
 url                      : https://cuhk-usr-group.github.io/large-scale-inspect-framework # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
