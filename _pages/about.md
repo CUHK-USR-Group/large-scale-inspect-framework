@@ -46,7 +46,7 @@ Visual inspection plays a predominant role in surface defect inspection. However
 </div>
 
 -----
-<div style="font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">   Workflow  
+<div style="font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">   Framework
 </div>
 
 
