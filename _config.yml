@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Towards Automated Large-Scale Infrastructure Inspection"
+title                    : "Inspection Framework"
 title_separator          : "-"
-name                     : &name "Detect-Reconstruct-Register Inspection Framework"
+name                     : &name "Inspection Framework"
 description              : &description "Learnable Cost Metric Based Multi-View Stereo for Point Cloud Reconstruction"
 url                      : https://cuhk-usr-group.github.io/large-scale-inspect-framework # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"

@@ -10,8 +10,8 @@ redirect_from:
 
 
 
-<h1 style="text-align: center; font-size: 36px; font-family: 'system-ui';"> Inspection Framework  </h1>
-<h2  style="text-align: center; font-size: 25px; font-family: 'Sama Devanagari';">
+<h1 style="text-align: center; font-size: 36px; font-family: 'system-ui';"> Towards Automated Large-Scale Infrastructure Inspection  </h1>
+<h2  style="text-align: center; font-size: 18px; font-family: 'Sama Devanagari';">
     Submitted to 2024 IEEE International Conference on Robotics and Automation
 </h2>
 <div style=" text-align: center; font-size: 17px;">
@@ -32,7 +32,7 @@ The Chinese University of Hong Kong, Hong Kong SAR, China
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
-<a href="#detailed-section" style="color: white; text-decoration: none;">Appendix</a>
+<a href="/pdfs/ICRA_2024_Appendix.pdf" style="color: white; text-decoration: none;">Appendix</a>
 </button>
 
 </div>
