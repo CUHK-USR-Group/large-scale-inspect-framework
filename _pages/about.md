@@ -32,7 +32,7 @@ The Chinese University of Hong Kong, Hong Kong SAR, China
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
-<a href="/pdfs/ICRA_2024_Appendix.pdf" style="color: white; text-decoration: none;">Appendix</a>
+<a href="pdfs/ICRA_2024_Appendix.pdf" style="color: white; text-decoration: none;">Appendix</a>
 </button>
 
 </div>
