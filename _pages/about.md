@@ -45,7 +45,9 @@ Visual inspection plays a predominant role in surface defect inspection. However
 
 </div>
 
-<div style="font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">   Inspection Framework
+<div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
+<h2>Inspection Framework</h2>
+
 </div>
 
 -----
@@ -60,9 +62,9 @@ The structure of the proposed <strong><em>Detect-Reconstruct-Register</em></stro
 
 
 
-
-
-<div style=";font-size: 25px; text-align: center; font-family: 'American Typewriter'; font-weight: 800; ">  Acknowledgements  </div>
+<div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
+<h2>Acknowledgements</h2>
+</div>
 
 -----
 
