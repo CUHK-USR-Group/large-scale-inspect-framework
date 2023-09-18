@@ -50,7 +50,6 @@ Visual inspection plays a predominant role in surface defect inspection. However
 
 </div>
 
------
 
 <div class="image-container"  style="margin: 40px auto; text-align: center; font-weight: 400;">
     <img src="images/workflow.png" alt="" width="100%">
@@ -65,8 +64,6 @@ The structure of the proposed <strong><em>Detect-Reconstruct-Register</em></stro
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h2>Acknowledgements</h2>
 </div>
-
------
 
 <div style="text-align: justify">This work was supported by the InnoHK of the Government of the Hong Kong Special Administrative Region via the Hong Kong Centre for Logistics Robotics.
 </div>
