@@ -24,7 +24,7 @@ The Chinese University of Hong Kong, Hong Kong SAR, China
 <div style="display: flex; flex-direction: row; margin: 10px auto; justify-content: center"> 
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px;border: none; border-radius: 5px;">
-<a href="pdfs/ICRA24_2019_MS-4.pdf" style="color: white; text-decoration: none;">Paper</a>
+<a href="pdfs/ICRA_2024_paper.pdf" style="color: white; text-decoration: none;">Paper</a>
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
