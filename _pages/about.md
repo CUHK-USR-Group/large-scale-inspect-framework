@@ -69,5 +69,5 @@ The structure of the proposed <strong><em>Detect-Reconstruct-Register</em></stro
 
 <div style="text-align: justify">This work was supported by the InnoHK of the Government of the Hong Kong Special Administrative Region via the Hong Kong Centre for Logistics Robotics.
 <br> <br>
-We sincerely appreciate the time and efforts paid by all the ICRA reviewers.
+We sincerely appreciate the time and efforts paid by all the IROS reviewers.
 </div>
