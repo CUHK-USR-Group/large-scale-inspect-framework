@@ -15,7 +15,7 @@ redirect_from:
     Submitted to 2024 IEEE International Conference on Intelligent Robots and Systems
 </h2>
 <div style=" text-align: center; font-size: 17px;">
-Guidong Yang, Benyun Zhao, Jihan Zhang, Yijun Huang, <br> Junjie Wen, Qingxiang Li, Xi Chen, and Ben M. Chen, Fellow, IEEE
+Guidong Yang, Jihan Zhang, Benyun Zhao, Yijun Huang, <br> Junjie Wen, Qingxiang Li, Xi Chen, and Ben M. Chen, Fellow, IEEE
 </div>
 <div  style="text-align: center; font-size: 17px;" >
 The Chinese University of Hong Kong, Hong Kong SAR, China
@@ -32,7 +32,7 @@ The Chinese University of Hong Kong, Hong Kong SAR, China
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
-<a href="pdfs/ICRA_2024_Appendix.pdf" style="color: white; text-decoration: none;">Appendix</a>
+<a href="pdfs/IROS_2024_Appendix.pdf" style="color: white; text-decoration: none;">Appendix</a>
 </button>
 
 </div>
