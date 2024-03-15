@@ -4,8 +4,8 @@ title: ""
 excerpt: "About the paper"
 author_profile: false
 redirect_from:
-/about/
-/about.html
+    /about/
+    /about.html
 ---
 
 
