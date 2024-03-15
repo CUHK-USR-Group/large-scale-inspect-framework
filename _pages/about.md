@@ -3,9 +3,9 @@ permalink: /
 title: ""
 excerpt: "About the paper"
 author_profile: false
-redirect_from: 
-  /about/
-  /about.html
+redirect_from:
+/about/
+/about.html
 ---
 
 
@@ -15,7 +15,7 @@ redirect_from:
     Submitted to 2024 IEEE International Conference on Intelligent Robots and Systems
 </h2>
 <div style=" text-align: center; font-size: 17px;">
-Guidong Yang, Jihan Zhang, Benyun Zhao, Yijun Huang, <br> Junjie Wen, Qingxiang Li, Xi Chen, and Ben M. Chen, Fellow, IEEE
+Guidong Yang, Jihan Zhang, Benyun Zhao, Chuanxiang Gao, Yijun Huang, <br> Junjie Wen, Qingxiang Li, Xi Chen, and Ben M. Chen, Fellow, IEEE
 </div>
 <div  style="text-align: center; font-size: 17px;" >
 The Chinese University of Hong Kong, Hong Kong SAR, China
@@ -42,7 +42,7 @@ The Chinese University of Hong Kong, Hong Kong SAR, China
 </div>
 <div style="text-align: justify; text-justify:inter-ideograph;">
 
-Visual inspection plays a predominant role in inspecting infrastructure surface. However, the generalization of existing visual inspection systems to large-scale real-world scenes remains challenging. In this paper, we introduce <strong> Det-Recon-Reg</strong>, an intelligent framework separating the complex inspection procedure into three stages: <strong>Detect</strong>, <strong>Reconstruct</strong>, and <strong>Register</strong>. For defect detection (<strong>Detect</strong>), we present the first high-resolution defect dataset tailored for large-scale defect detection. Based on the dataset, we evaluate the most effective real-time object detection algorithms and push the boundary by proposing CUBIT-Net for real-world defect inspection. For infrastructure reconstruction (<strong>Reconstruct</strong>), we propose a learning-based multi-view stereo (MVS) network to adapt to large-scale scenes, taking as input the multi-view images and outputting the point cloud reconstruction, where its performance has been validated on the standard MVS datasets, including BlendedMVS, DTU, and Tanks and Temples datasets. For defect localization (<strong>Register</strong>), we propose an effective registration method based on the geographic information system that registers the detected defects onto the reconstructed infrastructure model to establish a global reference for maintenance measures. The real-world experiments verify the effectiveness and efficiency of our proposed framework. Dataset, code, and appendix are available on our project page.
+Visual inspection plays a predominant role in inspecting infrastructure surface. However, the generalization of existing visual inspection systems to large-scale real-world scenes remains challenging. In this paper, we introduce <strong> Det-Recon-Reg</strong>, an intelligent framework separating the complex inspection procedure into three stages: <strong>Detect</strong>, <strong>Reconstruct</strong>, and <strong>Register</strong>. For defect detection (<strong>Detect</strong>), we present the first high-resolution defect dataset tailored for large-scale defect detection. Based on the dataset, we evaluate the most effective real-time object detection algorithms and push the boundary by proposing CUBIT-Net for real-world defect inspection. For infrastructure reconstruction (<strong>Reconstruct</strong>), we propose a learning-based multi-view stereo (MVS) network to adapt to large-scale scenes, taking as input the multi-view images and outputting the point cloud reconstruction, where its performance has been validated on the standard MVS datasets, including BlendedMVS, DTU, and Tanks and Temples datasets. For defect localization (<strong>Register</strong>), we propose an effective registration method based on the geographic information system that registers the detected defects onto the reconstructed infrastructure model to establish a global reference for maintenance measures. The real-world experiments verify the effectiveness and efficiency of our proposed framework.
 
 </div>
 
