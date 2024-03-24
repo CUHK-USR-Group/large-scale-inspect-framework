@@ -52,9 +52,9 @@ Visual inspection plays a predominant role in inspecting infrastructure surface.
 
 </div>
 
-<div style="margin: 10px auto; padding: 10px auto">
+<div style="margin: 10px auto; padding: 10px auto;">
 
-<video width="1080" height="960" controls>
+<video width="720" height="640" controls>
   <source src="images/Video_IROS.mp4" type="video/mp4">
   your browser does not support video tag.
 </video>
