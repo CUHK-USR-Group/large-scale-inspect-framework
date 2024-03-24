@@ -47,6 +47,18 @@ Visual inspection plays a predominant role in inspecting infrastructure surface.
 </div>
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
+
+<h2>Demo Video</h2>
+
+</div>
+
+<video width="320" height="240" controls>
+  <source src="images/Video_IROS.mp4" type="video/mp4">
+  your browser does not support video tag.
+</video>
+
+
+<div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h2>Inspection Framework</h2>
 
 </div>
